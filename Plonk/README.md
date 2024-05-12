@@ -47,3 +47,12 @@ PLONK 理论基础扎实，它借鉴了很多经典 ZKP 技术的理论基础，
 |  |  |  |  |  |
 
 以及最后的完结作业
+
+
+## 参考学习视频材料
+
+- [分享理解 PLONK 原理 一](https://www.youtube.com/watch?v=HtKmRcSJUG4&list=PLbQFt1T_44DwN1zWl-KWhkp3s0LAkF2a8&index=5&t=376s)
+
+- [分享 PLONK 原理 二](https://www.youtube.com/watch?v=O5HGp3EHDI0&list=PLbQFt1T_44DwN1zWl-KWhkp3s0LAkF2a8&index=4)
+
+- [分享理解 PLONK 原理 三 Lookup argument](https://www.youtube.com/watch?v=StvnHnC4Dk4&list=PLbQFt1T_44DwN1zWl-KWhkp3s0LAkF2a8&index=3)
