@@ -5,3 +5,4 @@
 
 ## Study group
 A month-long zkp study group, one topic at a time.
+- Jolt -> Finished
