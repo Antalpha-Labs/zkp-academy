@@ -1,4 +1,7 @@
-# ZKP Study Group
-A month-long zkp study group, one topic at a time.
+# ZKP Academy
 
-[Plonk course will run from May 27 to June 30, focusing on the principles and coding of the Plonk](https://github.com/Antalpha-Labs/zkp-study-group/tree/main/Plonk)
+## Courses
+- [Plonk course will run from May 27 to June 30, focusing on the principles and coding of the Plonk](https://github.com/Antalpha-Labs/zkp-study-group/tree/main/Plonk)
+
+## Study group
+A month-long zkp study group, one topic at a time.
