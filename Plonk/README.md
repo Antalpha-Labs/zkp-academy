@@ -1,3 +1,6 @@
+# Plonk Course
+
+## 基本信息
 
 ZKP（零知识证明）技术为加密行业带来了新的叙事和活力，ZKP 和区块链的结合正在经历快速发展和广泛应用的过程，充满着巨大的想象和潜力， 而当下只有较少人踏足，这意味着 **ZK 领域仍是一片蓝海**。
 
@@ -11,48 +14,122 @@ PLONK 理论基础扎实，它借鉴了很多经典 ZKP 技术的理论基础，
 
 围绕 PLONK，我们准备了系列课程，面向有一定 ZKP 相关的数学和理论基础者，**每节课程将结合具体的例子和代码，带你全面构建 PLONK 的认知框架**，帮你更好理解有关理论基础的实际运用，并带你深入 PLONK 的理论和工程代码实践。
 
+### 课程安排
 
-本期课程内容参考郭宇老师的文章，以及 Harry 做的代码实现展开:
+* **课程形式：** 线上视频直播课程 + 代码实践
+* **开营时间：** 5月26日
+* **课程时间：** 共计5周，每周二、周四20:00~21:30上课。
+* **线上答疑：** [Github Discussion](https://github.com/Antalpha-Labs/zkp-academy/discussions/categories/q-a)
+* **课程目标：** 通过本课程的学习，学习者将更加深入地理解 Plonk 协议的底层原理，如 Plonk 算术化、置换证明、算术约束、多项式承诺、Lookup等，并有能力用代码实现一个完整的 Plonk 证明流程。
 
-- [https://github.com/sec-bit/learning-zkp/tree/develop/plonk-intro-zh](https://github.com/sec-bit/learning-zkp/tree/develop/plonk-intro-zh)
-- [https://github.com/Antalpha-Labs/plonk-intro-notebook](https://github.com/Antalpha-Labs/plonk-intro-notebook?tab=readme-ov-file)
+### 前置知识
 
+对 ZKP 有一定的了解，了解 ZKP 中的基本概念。如果不了解也没关系，推荐同时学习这门课程[Zero Knowledge Proofs](https://zk-learning.org/)。
 
-## 详细安排 
+### 工作人员
 
-⏰ **开营时间**：5月26日（周日）
+* 👨‍🏫 讲师：
+  * 郭宇：SECBIT Labs （安比实验室）创始人，曾经高校教育从业者，关注领域为零知识证明，智能合约安全，程序语言理论。
+  * Yan：中科大本硕博，科大软件学院网安方向教师，当前兴趣包括AI和区块链，持续学习中。
+  * Wangyao：数学博士（未完成）研究 ZK，学习 FHE，探索代数学和密码学的相交地带。
+  * Jade：ZK 开发者@安比实验室。电子科技大学数学硕士，热爱数学与密码学，致力于将理论知识转化为实际应用。
+  * Po：EthStorage ZK Researcher, 半路出家区块链，持续学习 DA 和 ZK 前沿研究。
+  * Yingfei：密码学博士生， interested in lattice-based zero-knowledge proofs and signatures。
+  * Harry Liu：零知识证明(ZKP)技术爱好者, 在个人学习的同时, 也积极在社区进行分享和组织各种 ZKP 相关的活动。
+* 👨‍🎓 助教：
+  * Harold：“zkp 真的是太好玩啦！”，喜欢开源。
+  * Purple：文转码，zkp 学习ing。
+  * Jade：ZK 开发者@安比实验室。电子科技大学数学硕士，热爱数学与密码学，致力于将理论知识转化为实际应用。
 
-🧩 **课程时间**: 每周二、四晚 8 点
+## 课程表
 
-⛲️ **课程阵地：**
+### Lesson 1【5月28日周二】 ZKP & Plonk overivew
 
-- 微信群：开放给大家交流讨论，仅限课程报名者和导师，后续所有相关课程通知在群内发布
-- Zoom：上课所用，每节课前都有相应的链接
-- GitHub：本次课程核心协作平台，导师会在每节课前放置预习资料，学生在上面提交课程作业，相关的交流讨论也可以在其中完成
+在第一次课程中，我们将对 ZKP 和 Plonk 有个整体的认识，知道 Plonk 在 ZKP 发展中的位置，并认识到其重要性。
 
+* 主讲老师：郭宇
+* 课程回放
+* 课程幻灯片
+* 补充材料：
 
-## 课程内容 
+### Lesson 2【5月30日周四】 Plonk 算术化
 
-| 序号 | 课程题目 | 课程内容 | 讲师 | 助教 |
-| --- | --- | --- | --- | --- |
-| 第1周 | ZKP & Plonk overview | zkp overview; zkp & 复杂理论; zkp landscape | 郭宇老师 |  |
-|  | Plonk 算术化 | 为什么需要算术化, 如何做算术化 | 郭燕老师 |  |
-| 第2周 | Plonk 中的多项式 | 多项式概率检查, Lagrange 插值, 单位根 | Wangyao |  |
-|  | 置换证明 | Grand product, Multiset 等价, 置换证明 | Wangyao |  |
-| 第3周 | Plonk 中的约束 | 算术约束, 拷贝约束 | Jade |  |
-|  | Plonk 中的多项式承诺 | 多项式基础, KZG 承诺 | Po |  |
-| 第4周 | Lookup Gate | 讲解 Plonkup | yingfei |  |
-|  | Custom Gate | 讲解 Custom Gate | yingfei |  |
-| 第5周 | 代码实践 | 完成 Plonk 代码, 实现证明的完整流程 | harry |  |
-|  |  |  |  |  |
+我们将理解引入 Plonkish 算术化的优点，清楚它与 R1CS 的区别，并掌握 Plonkish 算术化的具体过程。
 
-以及最后的完结作业
+* 主讲老师：Yan
+* 课程回放
+* 课程幻灯片
+* 补充材料：[理解 PLONK（一）：Plonkish Arithmetization](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-cn/1-plonk-arithmetization.md)
+* 补充材料：[分享理解 PLONK 原理 一](https://www.youtube.com/watch?v=HtKmRcSJUG4&list=PLbQFt1T_44DwN1zWl-KWhkp3s0LAkF2a8&index=5&t=376s)
 
+### Lesson 3【6月4日周二】 Plonk 中的多项式
 
-## 参考学习视频材料
+我们将深入多项式编码的细节，掌握多项式编码将多个约束压缩成一个约束的具体过程。
 
-- [分享理解 PLONK 原理 一](https://www.youtube.com/watch?v=HtKmRcSJUG4&list=PLbQFt1T_44DwN1zWl-KWhkp3s0LAkF2a8&index=5&t=376s)
+* 主讲老师：Wangyao
+* 课程回放
+* 课程幻灯片
+* 补充材料：[理解 PLONK（二）：多项式编码](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-cn/2-plonk-lagrange-basis.md)
+* 补充材料：[分享 PLONK 原理 二](https://www.youtube.com/watch?v=O5HGp3EHDI0&list=PLbQFt1T_44DwN1zWl-KWhkp3s0LAkF2a8&index=4)
 
-- [分享 PLONK 原理 二](https://www.youtube.com/watch?v=O5HGp3EHDI0&list=PLbQFt1T_44DwN1zWl-KWhkp3s0LAkF2a8&index=4)
+### Lesson 4【6月6日周四】 置换证明
 
-- [分享理解 PLONK 原理 三 Lookup argument](https://www.youtube.com/watch?v=StvnHnC4Dk4&list=PLbQFt1T_44DwN1zWl-KWhkp3s0LAkF2a8&index=3)
+我们将深入理解置换证明底层原理。
+
+* 主讲老师：Wangyao
+* 课程回放
+* 课程幻灯片
+* 补充材料：[理解 PLONK（三）：置换证明](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-cn/3-plonk-permutation.md)
+
+### Lesson 5【6月11日周二】 Plonk中的约束
+
+我们将掌握算术约束与拷贝约束的底层原理。
+
+* 主讲老师：Jade
+* 课程回放
+* 课程幻灯片
+* 补充材料：[理解 PLONK（四）：算术约束与拷贝约束](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-cn/4-plonk-constraints.md)
+
+### Lesson 6【6月13日周四】 Plonk中的多项式承诺
+
+我们将明白什么是多项式承诺，掌握 KZG10 的多项式承诺构造。
+
+* 主讲老师：Po
+* 课程回放
+* 课程幻灯片
+* 补充材料：[理解 Plonk（五）：多项式承诺](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-cn/5-plonk-polycom.md)
+
+### Lesson 7【6月18日周二】 Lookup Gate
+
+我们将深入 Lookup 的细节，学习 Lookup Gate 不同方案以及优化。
+
+* 主讲老师：Yingfei
+* 课程回放
+* 课程幻灯片
+* 补充材料：[理解 PLONK（七）：Lookup Gate](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-cn/7-plonk-lookup.md)
+* 补充材料：[分享理解 PLONK 原理 三 Lookup argument](https://www.youtube.com/watch?v=StvnHnC4Dk4&list=PLbQFt1T_44DwN1zWl-KWhkp3s0LAkF2a8&index=3)
+
+### Lesson 8【6月20日周四】 Custom Gate
+
+我们将明白 Custom Gate 的底层原理。
+
+* 主讲老师：Yingfei
+* 课程回放
+* 课程幻灯片
+* 补充材料：
+
+### Lesson 9【6月25日周二】 代码实践
+
+我们将从代码入手，实现一个完整的 Plonk 协议。
+
+* 主讲老师：Harry Liu
+* 课程回放
+* 课程幻灯片
+* 补充材料：
+
+## 作业
+
+## References
+
+* [理解 Plonk 协议](https://github.com/sec-bit/learning-zkp/tree/master/plonk-intro-cn)
+* [Plonk intro notebook](https://github.com/Antalpha-Labs/plonk-intro-notebook?tab=readme-ov-file)
