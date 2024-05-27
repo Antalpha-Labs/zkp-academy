@@ -40,7 +40,10 @@ PLONK 理论基础扎实，它借鉴了很多经典 ZKP 技术的理论基础，
   * Harold：“zkp 真的是太好玩啦！”，喜欢开源。
   * Purple：文转码，zkp 学习ing。
   * Jade：ZK 开发者@安比实验室。电子科技大学数学硕士，热爱数学与密码学，致力于将理论知识转化为实际应用。
-
+  
+### 开营 AMA
+ * 视频回放 [开营 AMA](https://www.youtube.com/watch?v=3h972SlVsoI)
+   
 ## 课程表
 
 ### Lesson 1【5月28日周二】 ZKP & Plonk overivew
