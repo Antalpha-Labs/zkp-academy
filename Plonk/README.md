@@ -128,7 +128,7 @@ PLONK 理论基础扎实，它借鉴了很多经典 ZKP 技术的理论基础，
 * 主讲老师：Harry Liu
 * 课程回放
 * 课程幻灯片
-* 补充材料：
+* 补充材料：[Baby Plonk](https://github.com/Antalpha-Labs/baby-plonk)
 
 ## 作业
 
