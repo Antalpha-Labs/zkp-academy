@@ -135,3 +135,5 @@ PLONK 理论基础扎实，它借鉴了很多经典 ZKP 技术的理论基础，
 
 * [理解 Plonk 协议](https://github.com/sec-bit/learning-zkp/tree/master/plonk-intro-cn)
 * [Plonk intro notebook](https://github.com/Antalpha-Labs/plonk-intro-notebook?tab=readme-ov-file)
+
+**联系方式**：添加小助手微信 AntalphaLabs
