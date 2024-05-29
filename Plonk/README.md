@@ -51,8 +51,7 @@ PLONK 理论基础扎实，它借鉴了很多经典 ZKP 技术的理论基础，
 在第一次课程中，我们将对 ZKP 和 Plonk 有个整体的认识，知道 Plonk 在 ZKP 发展中的位置，并认识到其重要性。
 
 * 主讲老师：郭宇
-* 课程回放
-* 课程幻灯片
+* 课程回放：[YouTube 链接](https://youtu.be/OOBD7cnR1J4)
 * 补充材料：
 
 ### Lesson 2【5月30日周四】 Plonk 算术化
