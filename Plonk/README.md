@@ -52,7 +52,7 @@ PLONK 理论基础扎实，它借鉴了很多经典 ZKP 技术的理论基础，
 
 * 主讲老师：郭宇
 * 课程回放：[YouTube 链接](https://youtu.be/OOBD7cnR1J4)
-* 补充材料：
+* 补充材料：[课程笔记](https://github.com/Antalpha-Labs/zkp-academy/blob/main/Plonk/lesson%201/whyplonk%202024-05-28.pdf)
 
 ### Lesson 2【5月30日周四】 Plonk 算术化
 
@@ -60,7 +60,7 @@ PLONK 理论基础扎实，它借鉴了很多经典 ZKP 技术的理论基础，
 
 * 主讲老师：Yan
 * 课程回放：[Youtube 链接](https://youtu.be/L3qMBzPgfWY)
-* 课程幻灯片
+* 课程笔记：[链接](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-cn/python_notebook/1-plonk-arithmetization.ipynb)
 * 补充材料：[理解 PLONK（一）：Plonkish Arithmetization](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-cn/1-plonk-arithmetization.md)
 * 补充材料：[分享理解 PLONK 原理 一](https://www.youtube.com/watch?v=HtKmRcSJUG4&list=PLbQFt1T_44DwN1zWl-KWhkp3s0LAkF2a8&index=5&t=376s)
 
