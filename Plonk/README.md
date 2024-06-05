@@ -69,7 +69,7 @@ PLONK 理论基础扎实，它借鉴了很多经典 ZKP 技术的理论基础，
 我们将深入多项式编码的细节，掌握多项式编码将多个约束压缩成一个约束的具体过程。
 
 * 主讲老师：Wangyao
-* 课程回放
+* 课程回放：[Youtube 链接](https://youtu.be/bNGac1CJEKM)
 * 课程幻灯片
 * 补充材料：[理解 PLONK（二）：多项式编码](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-cn/2-plonk-lagrange-basis.md)
 * 补充材料：[分享 PLONK 原理 二](https://www.youtube.com/watch?v=O5HGp3EHDI0&list=PLbQFt1T_44DwN1zWl-KWhkp3s0LAkF2a8&index=4)
