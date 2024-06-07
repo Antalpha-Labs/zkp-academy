@@ -79,7 +79,7 @@ PLONK 理论基础扎实，它借鉴了很多经典 ZKP 技术的理论基础，
 我们将深入理解置换证明底层原理。
 
 * 主讲老师：Wangyao
-* 课程回放
+* 课程回放：[Youtube 链接](https://youtu.be/B7ubzpXSpqI)
 * 课程幻灯片
 * 补充材料：[理解 PLONK（三）：置换证明](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-cn/3-plonk-permutation.md)
 
