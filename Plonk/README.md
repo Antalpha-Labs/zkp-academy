@@ -83,6 +83,11 @@ PLONK 理论基础扎实，它借鉴了很多经典 ZKP 技术的理论基础，
 * 课程幻灯片
 * 补充材料：[理解 PLONK（三）：置换证明](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-cn/3-plonk-permutation.md)
 
+### 2nd Office Hour 【6月8日周六】
+
+* 答疑老师：郭宇、Wangyao、Harry、Keep...
+* 答疑回放：[Youtube 链接](https://youtu.be/SkTmEwbBx-I)
+
 ### Lesson 5【6月11日周二】 Plonk中的约束
 
 我们将掌握算术约束与拷贝约束的底层原理。
