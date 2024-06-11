@@ -94,7 +94,8 @@ PLONK 理论基础扎实，它借鉴了很多经典 ZKP 技术的理论基础，
 
 * 主讲老师：Jade
 * 课程回放
-* 课程幻灯片
+* 课程幻灯片: [链接](https://github.com/wenjin1997/awesome-zkp-learning/blob/main/courses/Plonk-GuoYu/lecture04/PLONK%20-%20Lecture%205%20-%20%E7%AE%97%E6%9C%AF%E7%BA%A6%E6%9D%9F%E4%B8%8E%E6%8B%B7%E8%B4%9D%E7%BA%A6%E6%9D%9F.pdf)
+* 课程代码: [链接](https://github.com/wenjin1997/awesome-zkp-learning/blob/main/courses/Plonk-GuoYu/lecture04/notes-plonk-lecture4-constraints.ipynb)
 * 补充材料：[理解 PLONK（四）：算术约束与拷贝约束](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-cn/4-plonk-constraints.md)
 
 ### Lesson 6【6月13日周四】 Plonk中的多项式承诺
