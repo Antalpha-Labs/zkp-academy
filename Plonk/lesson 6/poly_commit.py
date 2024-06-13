@@ -4,6 +4,7 @@ import random
 from fft import fft
 from pairing import ate_pairing
 from fields import Fq
+
 class PolyCommit:
     def __init__(self):
         self.modulus = default_ec.n
@@ -57,7 +58,7 @@ import unittest
 class Test(unittest.TestCase):
     def test_single_proof(self):         
         pc = PolyCommit()
-        evals = [101,12,13,24]
+        evals = [101,12,13,24]  # f(x)
         G = pc.pf.exp(7, (pc.pf.modulus -1) // 4)
         commitment = pc.getCommitment(evals, G)
         print("poly commitment:", commitment)
@@ -83,7 +84,7 @@ class Test(unittest.TestCase):
         idx = random.randint(0, max(len(f1_evals), len(f2_evals)) -1)
 
         ## Prover calculate q(x) = q1(x) + v * q2(x)
-        x0, y1_0, q1_x = pc.getSingleProofAtEvalIdx(f1_evals, G, idx)
+        x0, y1_0, q1_x = pc.getSingleProofAtEvalIdx(f1_evals, G, idx) # xo is the random number
         _, y2_0, q2_x = pc.getSingleProofAtEvalIdx(f2_evals, G, idx)
         proof = q1_x + q2_x * x0
         ## pairing check
