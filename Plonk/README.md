@@ -103,7 +103,7 @@ PLONK 理论基础扎实，它借鉴了很多经典 ZKP 技术的理论基础，
 我们将明白什么是多项式承诺，掌握 KZG10 的多项式承诺构造。
 
 * 主讲老师：Po
-* 课程回放
+* 课程回放：[Youtube 链接](https://youtu.be/yEH23SwxCG0)
 * 课程幻灯片
 * 补充材料：[理解 Plonk（五）：多项式承诺](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-cn/5-plonk-polycom.md)
 
