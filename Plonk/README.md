@@ -107,6 +107,11 @@ PLONK 理论基础扎实，它借鉴了很多经典 ZKP 技术的理论基础，
 * 课程幻灯片
 * 补充材料：[理解 Plonk（五）：多项式承诺](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-cn/5-plonk-polycom.md)
 
+### 3nd Office Hour 【6月15日周六】
+
+* 答疑老师：郭宇、Harry、Kurt Pan...
+* 答疑回放：[Youtube 链接](https://youtu.be/qagV_-Sqb9o)
+
 ### Lesson 7【6月18日周二】 Lookup Gate
 
 我们将深入 Lookup 的细节，学习 Lookup Gate 不同方案以及优化。
@@ -139,7 +144,7 @@ PLONK 理论基础扎实，它借鉴了很多经典 ZKP 技术的理论基础，
 
 ## Co-learn notes bounty
 
-为鼓励学员学习与分享，本课程推出 Co-learn notes bounty 活动，学员可以将学习中的内容整理成个人笔记提交到 Plonk/co-learn notes 目录下，收录后每篇笔记给出 200CNY 的 bounty，并发布在 Antalpha-Labs 公账号上。笔记主题围绕 ZKP 相关技术，不局限于 Plonk 协议。
+为鼓励学员学习与分享，本课程推出 Co-learn notes bounty 活动，学员可以将学习中的内容整理成个人笔记提交到 Plonk/co-learn notes 目录下，收录后每篇笔记给出 200CNY 的 bounty，并发布在 Antalpha-Labs 公众号上。笔记主题围绕 ZKP 相关技术，不局限于 Plonk 协议。
 
 ## References
 
