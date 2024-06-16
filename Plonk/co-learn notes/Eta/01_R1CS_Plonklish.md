@@ -1,4 +1,4 @@
-# ETAAcademy-ZKMeme: 01. R1CS V.S. Plonkish
+# 01. R1CS V.S. Plonkish
 
 <table>
   <tr>

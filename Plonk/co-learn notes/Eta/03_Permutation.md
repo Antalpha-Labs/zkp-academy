@@ -1,4 +1,4 @@
-# ETAAcademy-ZKMeme: 03. Permutation
+# 03. Permutation
 
 <table>
   <tr>

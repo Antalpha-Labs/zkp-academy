@@ -1,4 +1,4 @@
-# ETAAcademy-ZKMeme: 04. Copy Constraints and Optimization
+# 04. Copy Constraints and Optimization
 
 <table>
   <tr>

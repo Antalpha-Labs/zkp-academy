@@ -1,4 +1,4 @@
-# ETAAcademy-ZKMeme: 02. Lagrange Interpolation
+# 02. Lagrange Interpolation
 
 <table>
   <tr>
