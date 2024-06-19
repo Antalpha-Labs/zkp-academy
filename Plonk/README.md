@@ -117,8 +117,8 @@ PLONK 理论基础扎实，它借鉴了很多经典 ZKP 技术的理论基础，
 我们将深入 Lookup 的细节，学习 Lookup Gate 不同方案以及优化。
 
 * 主讲老师：Yingfei
-* 课程回放
-* 课程幻灯片
+* 课程回放：[Youtube 链接](https://youtu.be/pmO6p9Q-x6g)
+* 课程幻灯片：[链接](/Plonk/lesson%207/Plonk.pdf)
 * 补充材料：[理解 PLONK（七）：Lookup Gate](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-cn/7-plonk-lookup.md)
 * 补充材料：[分享理解 PLONK 原理 三 Lookup argument](https://www.youtube.com/watch?v=StvnHnC4Dk4&list=PLbQFt1T_44DwN1zWl-KWhkp3s0LAkF2a8&index=3)
 
