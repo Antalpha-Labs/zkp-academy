@@ -122,13 +122,13 @@ PLONK 理论基础扎实，它借鉴了很多经典 ZKP 技术的理论基础，
 * 补充材料：[理解 PLONK（七）：Lookup Gate](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-cn/7-plonk-lookup.md)
 * 补充材料：[分享理解 PLONK 原理 三 Lookup argument](https://www.youtube.com/watch?v=StvnHnC4Dk4&list=PLbQFt1T_44DwN1zWl-KWhkp3s0LAkF2a8&index=3)
 
-### Lesson 8【6月20日周四】 Custom Gate
+### Lesson 8【6月20日周四】 Custom Gate & Lookup Gate
 
 我们将明白 Custom Gate 的底层原理。
 
 * 主讲老师：Yingfei
-* 课程回放
-* 课程幻灯片
+* 课程回放：[Youtube 链接](https://youtu.be/I6asKtO8Q8E)
+* 课程幻灯片：[链接](/Plonk/lesson%208/plookup%20and%20custom%20gates.pdf)
 * 补充材料：
 
 ### Lesson 9【6月25日周二】 代码实践
