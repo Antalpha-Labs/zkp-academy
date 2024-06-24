@@ -107,7 +107,7 @@ PLONK 理论基础扎实，它借鉴了很多经典 ZKP 技术的理论基础，
 * 课程幻灯片
 * 补充材料：[理解 Plonk（五）：多项式承诺](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-cn/5-plonk-polycom.md)
 
-### 3nd Office Hour 【6月15日周六】
+### 3rd Office Hour 【6月15日周六】
 
 * 答疑老师：郭宇、Harry、Kurt Pan...
 * 答疑回放：[Youtube 链接](https://youtu.be/qagV_-Sqb9o)
@@ -130,6 +130,11 @@ PLONK 理论基础扎实，它借鉴了很多经典 ZKP 技术的理论基础，
 * 课程回放：[Youtube 链接](https://youtu.be/I6asKtO8Q8E)
 * 课程幻灯片：[链接](/Plonk/lesson%208/plookup%20and%20custom%20gates.pdf)
 * 补充材料：
+
+### 4th Office Hour 【6月22日周六】
+
+* 答疑老师：Harry...
+* 答疑回放：[Youtube 链接](https://youtu.be/DRfMGSvaluQ)
 
 ### Lesson 9【6月25日周二】 代码实践
 
