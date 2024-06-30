@@ -141,7 +141,7 @@ PLONK 理论基础扎实，它借鉴了很多经典 ZKP 技术的理论基础，
 我们将从代码入手，实现一个完整的 Plonk 协议。
 
 * 主讲老师：Harry Liu
-* 课程回放
+* 课程回放：[Youtube 链接](https://youtu.be/lHEJuYYk3VU)
 * 课程幻灯片
 * 补充材料：[Baby Plonk](https://github.com/Antalpha-Labs/baby-plonk)
 
