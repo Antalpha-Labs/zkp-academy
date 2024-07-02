@@ -66,3 +66,6 @@ https://medium.com/swf-lab/zksnark%E6%98%AF%E5%A6%82%E4%BD%95%E7%B5%84%E6%88%90%
 
 3. Zero Knowledge Proofs: Example with Pedersen Commitments in Monero
 https://medium.com/coinmonks/zero-knowledge-proofs-um-what-a092f0ee9f28
+
+4. Understanding KZG10 Polynomial Commitments
+https://taoa.io/posts/Understanding-KZG10-Polynomial-Commitments
