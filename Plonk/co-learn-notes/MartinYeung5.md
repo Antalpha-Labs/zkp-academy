@@ -51,9 +51,7 @@ commitment 有什麼種類?
 
 why zkSNARK?
 1. 可以實現verifier on-chain
-2. recursive proof
-
-recursive SNARKs unlock two novel application-level properties: compression and composability.
+2. recursive proof: 可以做到計算的compression 及 composability.
 
 參考:
 1. Fiat-Shamir transformation 
