@@ -54,7 +54,7 @@ why zkSNARK?
 2. recursive proof: 可以做到計算的compression及可以做到不同組合的計算效果.
 
 why Plonk?
-
+1. 是一個universal trust setup (KZG10)
 
 
 參考:
