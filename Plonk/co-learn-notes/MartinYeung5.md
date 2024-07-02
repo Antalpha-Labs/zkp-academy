@@ -50,6 +50,7 @@ commitment 有什麼種類?
 還有其他的。
 
 why zkSNARK?
+1. 可以實現verifier on-chain
 
 參考:
 1. Fiat-Shamir transformation 
