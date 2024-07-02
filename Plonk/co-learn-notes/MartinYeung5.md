@@ -32,7 +32,8 @@ prover要用最少的資源去證明一件事，verifier要用最少的資源去
 令public coin protocol變成Non-interactive proof。
 public coin protocol 可以讓誠實的驗證點發出隨機的coin(可以理解為隨機數)作為訊息，然後由prover產生一個proof。
 不過發出隨機的coin的動作不一定由verifier負責，可以由其他人負責。
-所以可以引入random oracle來生成隨機數，然後由prover產生一個proof。
+所以可以引入random oracle來生成隨機數，然後由prover產生一個proof，再直接發送給verifier(on-chain)。
+
 因此，
 
 參考:
