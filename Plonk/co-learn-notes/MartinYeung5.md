@@ -33,8 +33,15 @@ prover要用最少的資源去證明一件事，verifier要用最少的資源去
 public coin protocol 可以讓誠實的驗證點發出隨機的coin(可以理解為隨機數)作為訊息，然後由prover產生一個proof。
 不過發出隨機的coin的動作不一定由verifier負責，可以由其他人負責。
 所以可以引入random oracle(例如是 cryptographic hash function)來生成隨機數，然後由prover產生一個proof，再直接發送給verifier(on-chain)。因此，也減少了verifier的工作量。
+https://miro.medium.com/v2/resize:fit:1100/format:webp/0*KFAp0RYRk0cOVMqc.png
 
-
+commitment
+- O(1) size
+- Binding
+- Hiding
 參考:
 1. Fiat-Shamir transformation 
 https://www.zkdocs.com/docs/zkdocs/protocol-primitives/fiat-shamir/
+
+2. zkSNARK是如何組成的 — 1
+https://medium.com/swf-lab/zksnark%E6%98%AF%E5%A6%82%E4%BD%95%E7%B5%84%E6%88%90%E7%9A%84-1-2c6a474bcb06
