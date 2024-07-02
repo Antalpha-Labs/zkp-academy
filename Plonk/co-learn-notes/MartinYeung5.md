@@ -43,6 +43,14 @@ commitment 有以下特性:
 
 Plonk具有 commit-and-prove的特性，
 
+commitment 有什麼種類?
+1. hash
+2. merkle-tree
+3. pedersen commitment
+還有其他的。
+
+why zkSNARK?
+
 參考:
 1. Fiat-Shamir transformation 
 https://www.zkdocs.com/docs/zkdocs/protocol-primitives/fiat-shamir/
