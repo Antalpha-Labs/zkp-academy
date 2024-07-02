@@ -56,7 +56,9 @@ why zkSNARK?
 why Plonk?
 1. 是一個universal trust setup (KZG10)
 2. Proving O(nlogn), Verifier O(logn), Proof-size O(1)
-3. 
+
+Plonk 的組成部分是 arithematic +  polynomial iop。
+
 
 參考:
 1. Fiat-Shamir transformation 
