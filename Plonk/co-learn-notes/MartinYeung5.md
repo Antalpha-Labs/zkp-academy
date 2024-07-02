@@ -26,5 +26,12 @@ prover要用最少的資源去證明一件事，verifier要用最少的資源去
 所以兩者需要同時為真，才可以做到有效的驗證。
 
 基於Non-interactive zero-knowledge proof ，用戶可以直接生成proof，然後發送到區塊鏈上進行驗證。
+從而加快驗證效率
 
-public coin protocol 
+透過Fiat-Shamir transformation，可以實現Non-interactive zero-knowledge proof，
+令public coin protocol變成Non-interactive proof。
+public coin protocol 可以讓誠實的驗證點發出隨機的coin作為訊息，
+
+參考:
+1. Fiat-Shamir transformation 
+https://www.zkdocs.com/docs/zkdocs/protocol-primitives/fiat-shamir/
