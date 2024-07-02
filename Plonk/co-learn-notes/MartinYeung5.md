@@ -1,6 +1,6 @@
-Plonk 學習 = 基礎認識
+Plonk 學習 - 基礎認識
 
-proof的目的很重要，要了解到底證明什麼，
+proof的目的很重要，要了解到底證明什麼。
 
 ZKP有兩個角色, 一個是prover, 一個verifier, 
 如果要編寫prover, 有兩點要留意，第一是要產生一個有效的proof, 第二是要注意在產生proof時，有沒有暴露了一些不想公開的訊息。
@@ -18,6 +18,7 @@ prover要用最少的資源去證明一件事，verifier要用最少的資源去
 當證明是真的，就會通過驗證
 
 3. 零知識(Zero-knowledge)
+保護個人隱私
 
 在prover與verifier之間要有大量交互，在有足夠多的交互下，才可以進一步減低作弊的風險。
 真的證明能通過驗證，是其中一項條件，不代表這就是完整的。
@@ -39,6 +40,8 @@ commitment 有以下特性:
 - O(1) size
 - Binding, 當commitment出現，其數值就不能被修改
 - Hiding, 當數值未被公開，就不能被發現。
+
+Plonk具有 commit-and-prove的特性，
 
 參考:
 1. Fiat-Shamir transformation 
