@@ -61,6 +61,7 @@ Plonk 的組成部分是 arithematic +  polynomial iop。
 
 Circut:
 門是屬於 Polynomial Gates。
+當Circut經過計算之後會產出一堆polynomial。
 
 參考:
 1. Fiat-Shamir transformation 
