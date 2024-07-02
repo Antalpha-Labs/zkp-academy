@@ -70,3 +70,5 @@ https://medium.com/coinmonks/zero-knowledge-proofs-um-what-a092f0ee9f28
 
 4. Understanding KZG10 Polynomial Commitments
 https://taoa.io/posts/Understanding-KZG10-Polynomial-Commitments
+
+5. Recursive zkSNARKs: Exploring New Territory
