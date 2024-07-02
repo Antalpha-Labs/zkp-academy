@@ -25,6 +25,6 @@ prover要用最少的資源去證明一件事，verifier要用最少的資源去
 如果不能區分假的證明，這就雖然通過可靠性，但就欠缺完整性。
 所以兩者需要同時為真，才可以做到有效的驗證。
 
-Non-interactive zero-knowledge proof ，用戶直接生成proof，然後發送到區塊鏈上進行驗證。
+基於Non-interactive zero-knowledge proof ，用戶可以直接生成proof，然後發送到區塊鏈上進行驗證。
 
- public coin protocol 
+public coin protocol 
