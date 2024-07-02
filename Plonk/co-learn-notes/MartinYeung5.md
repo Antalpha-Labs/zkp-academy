@@ -59,7 +59,7 @@ why Plonk?
 
 Plonk 的組成部分是 arithematic +  polynomial IOP。
 
-Circut:
+circut:
 門是屬於 Polynomial Gates。
 當Circut經過計算之後會產出一堆polynomial。
 
