@@ -38,8 +38,8 @@ https://miro.medium.com/v2/resize:fit:1100/format:webp/0*KFAp0RYRk0cOVMqc.png
 
 commitment 有以下特性: 
 - O(1) size
-- Binding, 當commitment出現，其數值就不能被修改
-- Hiding, 當數值未被公開，就不能被發現。
+- Binding, 當commitment出現，其數值就不能被修改。保證其他人拿到你的commitment也不可以再改它。
+- Hiding, 當數值不公開，就不能被發現。不被人知道你的輸入資料, 每次生成的commitment都不同。
 
 Plonk具有 commit-and-prove的特性，
 
