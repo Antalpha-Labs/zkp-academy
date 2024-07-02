@@ -51,7 +51,7 @@ commitment 有什麼種類?
 
 why zkSNARK?
 1. 可以實現verifier on-chain
-2. recursive proof: 可以做到計算的compression 及 composability.
+2. recursive proof: 可以做到計算的compression及可以做到不同組合的計算效果.
 
 參考:
 1. Fiat-Shamir transformation 
