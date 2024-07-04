@@ -35,7 +35,7 @@ public coin protocol 可以讓誠實的驗證點發出隨機的coin(可以理解
 不過發出隨機的coin的動作不一定由verifier負責，可以由其他人負責。
 所以可以引入random oracle(例如是 cryptographic hash function)來生成隨機數，然後由prover產生一個proof，再直接發送給verifier(on-chain)。因此，也減少了verifier的工作量。
 
-![Alt text](https://miro.medium.com/v2/resize:fit:1100/format:webp/0*KFAp0RYRk0cOVMqc.png?raw=true "Title")
+![public coin protocol 變成 Non-interactive proof](https://miro.medium.com/v2/resize:fit:1100/format:webp/0*KFAp0RYRk0cOVMqc.png?raw=true "public coin protocol 變成 Non-interactive proof")
 
 commitment 有以下特性: 
 - O(1) size
