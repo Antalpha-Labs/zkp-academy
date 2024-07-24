@@ -38,11 +38,14 @@ https://blog.lambdaclass.com/how-to-code-fri-from-scratch/
 
 【第四、五周】
 
+Vitalik Blog https://vitalik.eth.limo/general/2024/07/23/circlestarks.html
+
+Kurt Pan 译 https://mp.weixin.qq.com/s/g6hcok1tJVIIOSoz3dxRFQ
+
 David Wong https://www.zksecurity.xyz/blog/posts/circle-starks-1/
 
 https://elibensasson.blog/why-im-excited-by-circle-stark-and-stwo/
 
-Vitalik Blog (to be published)
 
 【论文】https://eprint.iacr.org/2024/278.pdf
 
