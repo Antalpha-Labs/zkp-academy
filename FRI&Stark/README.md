@@ -72,10 +72,13 @@ Fast Reed-Solomon IOP (FRI) Proximity Test https://rot256.dev/post/fri/
 
 【第一部分】STARK101 ----- 时长2周 
 	Harold、Tim、Dream
+
 【第二部分】zk-learning Lecture 8  ------ 时长2周
 	hhh、Yingfei、Kyrin、backdoor
+
 【第三部分】代码（Plonky3）------ 时长2周 
 	小雪、Po
+	
 【第四部分进阶班】Circle STARKs ------ 时长2周 （可同时搞线下HackerHouse）
 	Kurt、白菜 cstark、小熊、wangyao
 	
