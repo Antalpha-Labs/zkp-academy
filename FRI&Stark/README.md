@@ -32,6 +32,7 @@ RiscZero - FRI https://github.com/risc0/risc0/blob/main/risc0/zkp/src/prove/fri.
 
 https://blog.lambdaclass.com/how-to-code-fri-from-scratch/
 
+饭卡：lambda class版zk-stark （[理论](https://lambdaclass.github.io/lambdaworks/starks/recap.html), [代码](https://github.com/lambdaclass/lambdaworks/tree/main/provers/stark)）
 
 
 ### Circle STARKs
@@ -77,7 +78,7 @@ Fast Reed-Solomon IOP (FRI) Proximity Test https://rot256.dev/post/fri/
 	hhh、Yingfei、Kyrin、backdoor
 
 【第三部分】代码（Plonky3）------ 时长2周 
-	小雪、Po
+	小雪、Po、饭卡
 	
 【第四部分进阶班】Circle STARKs ------ 时长2周 （可同时搞线下HackerHouse）
 	Kurt、白菜 cstark、小熊、wangyao
