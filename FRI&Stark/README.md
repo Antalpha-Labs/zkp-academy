@@ -1,8 +1,8 @@
 ### 讨论的课程内容
 
-**【第一周】STARK101 https://starkware.co/stark-101/**
+**【第一部分】STARK101 https://starkware.co/stark-101/**
 
-**【第二周】zk-learning Lecture 8 https://zk-learning.org/**
+**【第二部分】zk-learning Lecture 8 https://zk-learning.org/**
 
 【辅助教程】STARK Anatomy https://aszepieniec.github.io/stark-anatomy/
 
@@ -24,7 +24,7 @@ https://snargsbook.org/
 
 
 
-**【第三周】代码【阳小雪】Plonky3 - FRI https://github.com/Plonky3/Plonky3**
+**【第三部分】代码【阳小雪】Plonky3 - FRI https://github.com/Plonky3/Plonky3**
 
 Winterfell - FRI https://github.com/facebook/winterfell
 
@@ -37,7 +37,7 @@ https://blog.lambdaclass.com/how-to-code-fri-from-scratch/
 
 ### Circle STARKs
 
-【第四、五周】
+【第四部分】
 
 Vitalik Blog https://vitalik.eth.limo/general/2024/07/23/circlestarks.html
 
