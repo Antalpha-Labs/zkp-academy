@@ -32,6 +32,10 @@ RiscZero - FRI https://github.com/risc0/risc0/blob/main/risc0/zkp/src/prove/fri.
 
 https://blog.lambdaclass.com/how-to-code-fri-from-scratch/
 
+饭卡（宣传文案）：lambda class团队曾为starknet发展做出过重大贡献，在lambda class团队帮助下starknet的Quantum Leap升级得以将TPS有一个越迁式的提升。学习lambda class团队的zk-stark实现可以从接近工程实际角度理解zk-stark理论。
+
+饭卡（讲解内容）：结合lamda class版zk-stark理论及代码，讲解zk-stark具体实现流程。
+
 饭卡：lambda class版zk-stark （[理论](https://lambdaclass.github.io/lambdaworks/starks/recap.html), [代码](https://github.com/lambdaclass/lambdaworks/tree/main/provers/stark)）
 
 
