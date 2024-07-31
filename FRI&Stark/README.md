@@ -81,7 +81,7 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 
 ### Part 3: FRI 代码【9月9日 - 9月22日】
 
-学习和实现 FRI 代码，通过 Plonky3 和 RISC Zero 等项目、lambda class团队的 zk-stark，掌握 FRI 的实际编程技巧。
+学习和实现 FRI 代码，通过 Plonky3 和 lambda class团队的 zk-stark，掌握 FRI 的实际编程技巧。
 
 + 讲师：阳小雪、饭卡、Po
 + 课程回放：
@@ -131,14 +131,14 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 
   + Dream：Scroll Core Engineer，Blocksight 作者。数学&密码学持续学习者，前爱立信，微软高级工程师，区块链与隐私计算一线工程研发。
   + wangyao：数学博士（未完成）研究 ZK，学习 FHE，探索代数学和密码学的相交地带。
-  + Kurt Pan：郭宇老师“曾经所在高校”本科，复旦大学密码学博士，自我认知为 Crypto Primitive，偶像是 Kurt Gödel，痴迷计算复杂性理论和密码学概率证明系统，希望成为「密码朋克」精神的继承者。
+  + Kurt Pan：学院派新密码朋克，郭宇老师的好学生
   + 白菜 cstark：多年 ML 从业者，ZKP 研究者，关注ZKML，撰写分享了多篇 ZKP 文章
   + Tim：Tim，北京邮电大学硕士，密码学爱好者，CTFer，热衷ZK安全。
   + 小熊：pku 物理本科，法国 AI 硕士，现正专注密码学，做 ZK 相关科研
   + Harold：研究 zk 协议 todolist 望不到头的人，偶尔会做一些技术分享，欢迎大家来一起讨论～
   + Kyrin：区块链方向博士生，zkp 技术爱好者，与大佬们学习最新技术。
   + 0xhhh：bitlayer 工程师，zk 爱好者
-  + backdoor：OKX ZK Engineer，代码和理论两手抓，希望跟大家多交流学习～
+  + backdoor：OKX ZK Dev，代码和理论两手抓，希望跟大家多交流学习～
   + Po：EthStorage ZK Researcher, 半路出家区块链，持续学习 DA 和 ZK 前沿研究。
   + 阳小雪：安比实验室 ZK Researcher, 最近在学习 Plonky3 的代码
   + Yingfei：密码学博士生，interested in lattice-based zero-knowledge proofs and signatures。
