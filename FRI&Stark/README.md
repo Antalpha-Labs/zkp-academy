@@ -31,26 +31,6 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 
 对 ZKP 有一定的了解，了解 ZKP 中的基本概念。如果不了解也没关系，推荐同时学习这门MOOC [Zero Knowledge Proofs](https://zk-learning.org/) 以及我们的往期课程 [Plonk一期](https://www.youtube.com/playlist?list=PLbQFt1T_44DwN1zWl-KWhkp3s0LAkF2a8) [Plonk二期](https://www.youtube.com/playlist?list=PLbQFt1T_44Dy2FQU5oSbIdtfw2S64L72y)
 
-### 教学阵容
-
-+ 讲师
-  + Dream：
-  + wangyao：
-  + Kurt Pan：
-  + 白菜 cstark：
-  + Tim：
-  + 小熊：
-  + Harold：
-  + Kyrin：
-  + 0xhhh：
-  + backdoor：
-  + Po：
-  + 阳小雪：
-  + Yingfei：
-  + wu：
-+ 助教
-  + 
-
 ### 开营AMA
 
 + 视频回放：
@@ -135,6 +115,27 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 + [(算术化) Study of Arithmetization Methods for STARKs](https://eprint.iacr.org/2023/661.pdf)
 
 ## 作业
+
+
+
+### 老师介绍
+
+  + Dream：
+  + wangyao：
+  + Kurt Pan：
+  + 白菜 cstark：
+  + Tim：
+  + 小熊：
+  + Harold：
+  + Kyrin：
+  + 0xhhh：
+  + backdoor：
+  + Po：
+  + 阳小雪：
+  + Yingfei：
+  + wu：
+
+
 
 ## Co-learn notes bounty
 
