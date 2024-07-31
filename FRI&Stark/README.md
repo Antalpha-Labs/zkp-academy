@@ -2,13 +2,21 @@
 
 ## 基本信息
 
-在零知识证明（ZKP）领域中，Fast Reed-Solomon Interactive Oracle Proof of Proximity（FRI）是 STARKs（Scalable Transparent ARguments of Knowledge）的核心组成部分。作为一种重要的证明系统，它正迅速崭露头角。
+FRI（Fast Reed-Solomon Interactive Oracle Proof of Proximity）是 STARKs（Scalable Transparent ARguments of Knowledge）的核心组成部分。
 
-FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识证明提供高效的低复杂度验证，提升验证效率并显著降低验证成本。
+作为一种重要的证明系统，FRI 正迅速崭露头角。
 
-更值得一提的是，FRI 在后量子时代拥有独特的优势，通过抵御量子计算的威胁，确保了在新计算范式下的安全性和可靠性，这使得 FRI 不仅是未来密码学中不可或缺的关键技术，也将在 Crypto 领域成为保障系统安全和隐私的重要工具。
+FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识证明提供高效的低复杂度验证，提升验证效率并显著降低验证成本。具体来说，它允许证明者（Prover）向验证者（Verifier）证明某个多项式的评估值确实具有低度性，而不需要验证者重新计算这个多项式。
 
-当我们站在历史的风陵渡，用未来的眼光审视当下，FRI 仍是一片充满可能性的土壤。
+值得一提的是，FRI 在后量子时代拥有独特的优势。
+
+一方面，FRI 依赖于信息论的安全性和哈希函数的抗碰撞特性，而不是传统的基于数学难题的密码系统。这意味着即使面对能够高效解决整数分解和离散对数问题的量子计算机，FRI 仍然能够保持其安全性。这种设计使得 FRI 能够在量子计算环境下依然可靠，提供高强度的防护。
+
+另一方面，FRI 使用 Merkle Tree 进行数据承诺和验证，通过哈希函数的抗碰撞性确保数据完整性和真实性。Merkle Tree 的安全性依赖于选定哈希函数的抗碰撞性，如 SHA-256、Blake3 等，这些哈希函数在量子计算时代依然具有较高的安全性。通过 Merkle Tree，FRI 能够高效地验证多项式评估值，从而减少计算开销和验证时间。
+
+总而言之，FRI 及其在 STARKs 中的应用，凭借其独特的设计和依赖于信息论的安全性，使得 FRI 不仅是未来密码学中不可或缺的关键技术，也将在 Crypto 领域成为保障系统安全和隐私的重要工具。
+
+当我们站在历史的风陵渡，用未来的眼光审视当下，FRI 显然是一片充满可能性的土壤。
 
 ### 课程安排
 
@@ -16,20 +24,20 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 
 + **课程形式**：线上视频直播课程 + 代码实践
 + **开营时间**：8月12日
-+ **课程时间**：6周，每周二、周四20:00~21:30上课。
++ **课程时间**：6周（8月12日-10月6日）
 + **课程目标**：通过本期共学，参与学员将深入地理解 FRI 协议的底层原理、安全分析及其在STARK证明系统中的作用，研读实际证明系统中FRI部分的源码，并有能力用代码实现FRI的流程。
 + **线上答疑：** [Github Discussion](https://github.com/Antalpha-Labs/zkp-academy/discussions/categories/q-a)
 
 【**进阶-线下**】
-
+*进阶课程须完成线上课程才可参与*
 + **课程形式**：线下论文通读
-+ **课程时间**：2周
++ **课程时间**：待定，预计两周
 + **课程地点**：待定
 + **课程目标**：深入理解 Circle STARKs 的原理与最新进展
 
 ### 前置知识
 
-对 ZKP 有一定的了解，了解 ZKP 中的基本概念。如果不了解也没关系，推荐同时学习这门MOOC [Zero Knowledge Proofs](https://zk-learning.org/) 以及我们的往期课程 [Plonk一期](https://www.youtube.com/playlist?list=PLbQFt1T_44DwN1zWl-KWhkp3s0LAkF2a8) [Plonk二期](https://www.youtube.com/playlist?list=PLbQFt1T_44Dy2FQU5oSbIdtfw2S64L72y)
+对 ZKP 有一定的了解，了解 ZKP 中的基本概念。如果不了解也没关系，推荐同时学习这门 MOOC [Zero Knowledge Proofs](https://zk-learning.org/) 以及我们的往期课程 [Plonk一期](https://www.youtube.com/playlist?list=PLbQFt1T_44DwN1zWl-KWhkp3s0LAkF2a8) [Plonk二期](https://www.youtube.com/playlist?list=PLbQFt1T_44Dy2FQU5oSbIdtfw2S64L72y)
 
 ### 开营AMA
 
@@ -73,28 +81,29 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 
 ### Part 3: FRI 代码【9月9日 - 9月22日】
 
-通过学习Plonky3等证明系统中FRI部分代码，理解FRI在证明系统中的实现。
+学习和实现 FRI 代码，通过 Plonky3 和 RISC Zero 等项目、lambda class团队的 zk-stark，掌握 FRI 的实际编程技巧。
 
 + 讲师：阳小雪、饭卡、Po
 + 课程回放：
 + 共学资料：[Plonky3 - FRI](https://github.com/Plonky3/Plonky3)
 
-+ 辅助学习：[Winterfell - FRI](https://github.com/facebook/winterfell) [RiscZero - FRI](https://github.com/risc0/risc0/blob/main/risc0/zkp/src/prove/fri.rs) [how to code fri from scratch](https://blog.lambdaclass.com/how-to-code-fri-from-scratch/)
-
-下面这部分要怎么放进来？
-
-饭卡（宣传文案）：lambda class团队曾为starknet发展做出过重大贡献，在lambda class团队帮助下starknet的Quantum Leap升级得以将TPS有一个越迁式的提升。学习lambda class团队的zk-stark实现可以从接近工程实际角度理解zk-stark理论。
-
-饭卡（讲解内容）：结合lamda class版zk-stark理论及代码，讲解zk-stark具体实现流程。
-
-饭卡：lambda class版zk-stark （[理论](https://lambdaclass.github.io/lambdaworks/starks/recap.html), [代码](https://github.com/lambdaclass/lambdaworks/tree/main/provers/stark)）
++ 辅助学习：
+  1. [Winterfell - FRI](https://github.com/facebook/winterfell)
+  2. [RiscZero - FRI](https://github.com/risc0/risc0/blob/main/risc0/zkp/src/prove/fri.rs)
+  3. [how to code fri from scratch](https://blog.lambdaclass.com/how-to-code-fri-from-scratch/)
+  4. lambda class版zk-stark （[理论](https://lambdaclass.github.io/lambdaworks/starks/recap.html), [代码](https://github.com/lambdaclass/lambdaworks/tree/main/provers/stark)）
 
 
-### Part 4: Circle STARKs 【9月23日 - 10月6日】
+### Part 4: Circle STARKs 【时间地点待定，参与此课程须完成线上课程】
 
 + 讲师：Kurt Pan、白菜、小熊、wangyao
 + 课程回放：
-+ 共学资料：[Vitalik Blog](https://vitalik.eth.limo/general/2024/07/23/circlestarks.html) [Kurt Pan 译](https://mp.weixin.qq.com/s/g6hcok1tJVIIOSoz3dxRFQ) [David Wong Post](https://www.zksecurity.xyz/blog/posts/circle-starks-1/) [circle stark and stwo](https://elibensasson.blog/why-im-excited-by-circle-stark-and-stwo/) [Paper](https://eprint.iacr.org/2024/278.pdf)
++ 共学资料：
+  1. [Vitalik Blog](https://vitalik.eth.limo/general/2024/07/23/circlestarks.html)
+  2. [Kurt Pan 译](https://mp.weixin.qq.com/s/g6hcok1tJVIIOSoz3dxRFQ)
+  3. [David Wong Post](https://www.zksecurity.xyz/blog/posts/circle-starks-1/)
+  4. [circle stark and stwo](https://elibensasson.blog/why-im-excited-by-circle-stark-and-stwo/)
+  5. [Paper](https://eprint.iacr.org/2024/278.pdf)
 
 
 
@@ -120,21 +129,20 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 
 ### 老师介绍
 
-  + Dream：
-  + wangyao：
-  + Kurt Pan：
-  + 白菜 cstark：
-  + Tim：
-  + 小熊：
-  + Harold：
-  + Kyrin：
-  + 0xhhh：
-  + backdoor：
-  + Po：
-  + 阳小雪：
-  + Yingfei：
-  + wu：
-
+  + Dream：Scroll Core Engineer，Blocksight 作者。数学&密码学持续学习者，前爱立信，微软高级工程师，区块链与隐私计算一线工程研发。
+  + wangyao：数学博士（未完成）研究 ZK，学习 FHE，探索代数学和密码学的相交地带。
+  + Kurt Pan：郭宇老师“曾经所在高校”本科，复旦大学密码学博士，自我认知为 Crypto Primitive，偶像是 Kurt Gödel，痴迷计算复杂性理论和密码学概率证明系统，希望成为「密码朋克」精神的继承者。
+  + 白菜 cstark：多年 ML 从业者，ZKP 研究者，关注ZKML，撰写分享了多篇 ZKP 文章
+  + Tim：Tim，北京邮电大学硕士，密码学爱好者，CTFer，热衷ZK安全。
+  + 小熊：pku 物理本科，法国 AI 硕士，现正专注密码学，做 ZK 相关科研
+  + Harold：研究 zk 协议 todolist 望不到头的人，偶尔会做一些技术分享，欢迎大家来一起讨论～
+  + Kyrin：区块链方向博士生，zkp 技术爱好者，与大佬们学习最新技术。
+  + 0xhhh：bitlayer 工程师，zk 爱好者
+  + backdoor：OKX ZK Engineer，代码和理论两手抓，希望跟大家多交流学习～
+  + Po：EthStorage ZK Researcher, 半路出家区块链，持续学习 DA 和 ZK 前沿研究。
+  + 阳小雪：安比实验室 ZK Researcher, 最近在学习 Plonky3 的代码
+  + Yingfei：密码学博士生，interested in lattice-based zero-knowledge proofs and signatures。
+  + 饭卡：电子科技大学硕士，持续学习 zk ing
 
 
 ## Co-learn notes bounty
