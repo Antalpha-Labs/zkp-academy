@@ -48,7 +48,7 @@ commitment 有什麼種類?
 1. hash
 2. merkle-tree
 3. pedersen commitment
-還有其他的。
+* 還有其他的。
 
 why zkSNARK?
 1. 可以實現verifier on-chain
