@@ -68,6 +68,7 @@ polynomial會交給polynomial IOP
 
 polynomial commitment
 例子 : KZG10, IPM, FRI
+
 這裡不是單單驗證一件事，而是驗證整個多項式。
 
 #### 參考文章:
