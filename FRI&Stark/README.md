@@ -24,7 +24,7 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 
 + **课程形式**：线上视频直播课程 + 代码实践
 + **开营时间**：8月12日
-+ **课程时间**：6周（8月12日-10月6日）
++ **课程时间**：6周（8月12日-9月22日）
 + **课程目标**：通过本期共学，参与学员将深入地理解 FRI 协议的底层原理、安全分析及其在STARK证明系统中的作用，研读实际证明系统中FRI部分的源码，并有能力用代码实现FRI的流程。
 + **线上答疑：** [Github Discussion](https://github.com/Antalpha-Labs/zkp-academy/discussions/categories/q-a)
 
