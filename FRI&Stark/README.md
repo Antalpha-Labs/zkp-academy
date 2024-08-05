@@ -23,7 +23,6 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 【**基础-线上**】
 
 + **课程形式**：线上视频直播课程 + 代码实践
-+ **开营时间**：8月12日
 + **课程时间**：6周（8月12日-9月22日）
 + **课程目标**：通过本期共学，参与学员将深入地理解 FRI 协议的底层原理、安全分析及其在STARK证明系统中的作用，研读实际证明系统中FRI部分的源码，并有能力用代码实现FRI的流程。
 + **线上答疑：** [Github Discussion](https://github.com/Antalpha-Labs/zkp-academy/discussions/categories/q-a)
@@ -47,9 +46,19 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 
 ### Part 1: STARK101【8月12日 - 8月25日】
 
-通过 STARK101 课程入门，了解 STARKs 的基本概念和应用场景。
+通过 STARK101 课程入门，了解 STARKs 中各个组件的功能，以及这些功能在 ZKP 中起到了什么作用。
+在 Part1 中我们将布置下我们需要完成的第一个作业
+【第一周课程安排】
+- 第一节课：How to do Low Degree Extension and constrain our LED.
+- 预习材料：STARK101 第一及第二个视频，领航员: Tim，时间：星期二
+- 第二节课：What did FRI actually do?
+- 预习材料：STARK101 第三个视频，领航员: Dream，时间：星期四
+- 答疑：周六晚上时间 8 点
+【第二周课程安排】
+- 第三节课：How to convince the verifier by FRI?
+- 预习材料：STARK101 第四个视频，领航员: Harold, 时间：星期二
+- 答疑：周六晚上时间 8 点
 
-+ 讲师：Harold、Tim、Dream
 + 课程回放：
 + 共学资料：[STARK101](https://starkware.co/stark-101/)
 
