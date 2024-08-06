@@ -96,6 +96,10 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 
 学习和实现 FRI 代码，通过 Plonky3 和 lambda class团队的 zk-stark，掌握 FRI 的实际编程技巧。
 
+【第一周课程安排】
+- 第一节课：lambda class版zk-stark实现
+  - 预习材料： 阅读lambda class版zk-stark的[理论和实现流程](https://lambdaclass.github.io/lambdaworks/starks/recap.html)，有余力的可以看看[代码实现](https://github.com/lambdaclass/lambdaworks/tree/main/provers/stark)，领航员: 饭卡，时间：星期二，晚上8点
+
 + 讲师：阳小雪、饭卡、Po
 + 课程回放：
 + 共学资料：[Plonky3 - FRI](https://github.com/Plonky3/Plonky3)
