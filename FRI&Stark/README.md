@@ -99,10 +99,19 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 【第一周课程安排】
 - 第一节课：lambda class版zk-stark实现
   - 预习材料： 阅读lambda class版zk-stark的[理论和实现流程](https://lambdaclass.github.io/lambdaworks/starks/recap.html)，有余力的可以看看[代码实现](https://github.com/lambdaclass/lambdaworks/tree/main/provers/stark)，领航员: 饭卡，时间：星期二，晚上8点
-
-+ 讲师：阳小雪、饭卡、Po
+- 第二节课：Plonky3 two_adic_pcs概述
+  - 预习材料：[Plonky3](https://github.com/Plonky3/Plonky3)fri文件夹内的代码，领航员: 阳小雪，时间：星期四，晚上8点
+- 第三节课：
+  - Plonky3/fri/src/two_adic_pcs.rs
+  - 预习材料：[Plonky3](https://github.com/Plonky3/Plonky3)fri文件夹内的代码，领航员: 阳小雪，时间：星期二，晚上8点
+- 第四节课：
+  - Plonky3/fri/src/proof.rs
+  - Plonky3/fri/src/prover.rs
+  - Plonky3/fri/src/verifier.rs
+  - 预习材料：[Plonky3](https://github.com/Plonky3/Plonky3)fri文件夹内的代码，领航员: 阳小雪，时间：星期四，晚上8点
 + 课程回放：
-+ 共学资料：[Plonky3 - FRI](https://github.com/Plonky3/Plonky3)
++ 共学资料：
+  - [Plonky3](https://github.com/Plonky3/Plonky3)
 
 + 辅助学习：
   1. [Winterfell - FRI](https://github.com/facebook/winterfell)
