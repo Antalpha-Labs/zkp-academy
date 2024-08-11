@@ -63,16 +63,31 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
   - 预习材料：STARK101 第四个视频，领航员: Harold, 时间：星期四，晚上8点
 - 答疑：周六晚上时间 8 点
 
-+ 课程回放：
-+ 共学资料：[STARK101](https://starkware.co/stark-101/)
+课程回放：
+
+共学资料：[STARK101](https://starkware.co/stark-101/)
 
 ### Part 2: zk-learning.org Lecture 8【8月26日 - 9月8日】
 
 通过 zk-learning 的第八讲及其它辅助材料，深入理解 zk-STARKs 的工作原理和技术细节。
 
-+ 讲师：0xhhh、Yingfei、Kyrin、backdoor
-+ 课程回放：
-+ 共学资料：[zk-learning.org](https://zk-learning.org/)
+讲师：backdoor、Kyrin、0xhhh、Yingfei
+
+【第一周课程安排】
+- 第一节课：FRI by Hand.
+  - 课程内容：FRI的例子及协议细节，讲师：backdoor，时间：星期二晚上8点
+- 第二节课：Why Low-Degree Testing? & Comparison of Commitment Schemes.
+  - 课程内容：LDT的安全分析及PCS对比，讲师：Kyrin，时间：星期四晚上8点
+
+【第二周课程安排】
+- 第三节课：PCS with FRI.
+  - 课程内容：FRI的多项式承诺，讲师：0xhhh，时间：星期二晚上8点
+- 第四节课：Paper of FRI.
+  - 课程内容：FRI论文导读及安全分析，讲师：Yingfei，时间：星期四晚上8点
+
+课程回放：
+
+共学资料：[zk-learning.org](https://zk-learning.org/)
 
 【辅助教程】
 
@@ -101,6 +116,8 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
   - 预习材料： 阅读lambda class版zk-stark的[理论和实现流程](https://lambdaclass.github.io/lambdaworks/starks/recap.html)，有余力的可以看看[代码实现](https://github.com/lambdaclass/lambdaworks/tree/main/provers/stark)，领航员: 饭卡，时间：星期二，晚上8点
 - 第二节课：Plonky3 two_adic_pcs概述
   - 预习材料：[Plonky3](https://github.com/Plonky3/Plonky3)fri文件夹内的代码，领航员: 阳小雪，时间：星期四，晚上8点
+
+【第二周课程安排】
 - 第三节课：
   - Plonky3/fri/src/two_adic_pcs.rs
   - 预习材料：[Plonky3](https://github.com/Plonky3/Plonky3)fri文件夹内的代码，领航员: 阳小雪，时间：星期二，晚上8点
@@ -109,8 +126,10 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
   - Plonky3/fri/src/prover.rs
   - Plonky3/fri/src/verifier.rs
   - 预习材料：[Plonky3](https://github.com/Plonky3/Plonky3)fri文件夹内的代码，领航员: 阳小雪，时间：星期四，晚上8点
-+ 课程回放：
-+ 共学资料：
+
+课程回放：
+
+共学资料：
   - [Plonky3](https://github.com/Plonky3/Plonky3)
 
 + 辅助学习：
