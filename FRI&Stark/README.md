@@ -40,7 +40,7 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 
 ### 开营AMA
 
-+ 视频回放：
++ 视频回放：[Youtube 链接](https://www.youtube.com/watch?v=mXHaBqJ0aYI)
 
 ## 课程表
 
