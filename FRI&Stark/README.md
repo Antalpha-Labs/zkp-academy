@@ -18,25 +18,12 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 
 当我们站在历史的风陵渡，用未来的眼光审视当下，FRI 显然是一片充满可能性的土壤。
 
-### 课程安排
-
-【**基础-线上**】
-
-+ **课程形式**：线上视频直播课程 + 代码实践
-+ **课程时间**：6周（8月12日-9月22日）
-+ **课程目标**：通过本期共学，参与学员将深入地理解 FRI 协议的底层原理、安全分析及其在STARK证明系统中的作用，研读实际证明系统中FRI部分的源码，并有能力用代码实现FRI的流程。
-+ **线上答疑：** [Github Discussion](https://github.com/Antalpha-Labs/zkp-academy/discussions/categories/q-a)
-
-【**进阶-线下**】
-*进阶课程须完成线上课程才可参与*
-+ **课程形式**：线下论文通读
-+ **课程时间**：待定，预计两周
-+ **课程地点**：待定
-+ **课程目标**：深入理解 Circle STARKs 的原理与最新进展
 
 ### 前置知识
 
 对 ZKP 有一定的了解，了解 ZKP 中的基本概念。如果不了解也没关系，推荐同时学习这门 MOOC [Zero Knowledge Proofs](https://zk-learning.org/) 以及我们的往期课程 [Plonk一期](https://www.youtube.com/playlist?list=PLbQFt1T_44DwN1zWl-KWhkp3s0LAkF2a8) [Plonk二期](https://www.youtube.com/playlist?list=PLbQFt1T_44Dy2FQU5oSbIdtfw2S64L72y)
+
++ **线上答疑：** [Github Discussion](https://github.com/Antalpha-Labs/zkp-academy/discussions/categories/q-a)
 
 ### 开营AMA
 
@@ -197,3 +184,4 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 
 
 **联系方式**：添加小助手微信 AntalphaLabs
+**备注**：不要吝啬给我们一个 star 哦～
