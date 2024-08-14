@@ -40,6 +40,7 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 - 第一节课：Overview of FRI.
   - 预习材料：有时间的可以看一下上一期 Plonk 的内容，领航员: Guoyu，时间：星期二，晚上8点
   - 课程回放：[Youtube 链接](https://youtu.be/VUjiC5Qwdmo)
+  - PPT [链接](https://github.com/Antalpha-Labs/zkp-academy/blob/main/FRI%26Stark/lesson%201/FRI%20overview%202024-08-13%2019-54-37.pdf)
 - 第二节课：How to do Low Degree Extension and constrain our LED.
   - 预习材料：STARK101 第一及第二个视频，领航员: Tim，时间：星期四，晚上8点
   - 课程回放：
