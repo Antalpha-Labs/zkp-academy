@@ -10,7 +10,7 @@ Stark101 前2个视频主要是描述如何做算术化（Arithmetization），�
 
 要解释原因，通常需要熟悉一个方案的构造框架。一个主流的 SNARK 方案构造框架以及基于FRI的SNARK构造框架（草图）如下：
 
-<div align=center><img src="imgs/1.png" style="zoom:40%;"></div>
+<div align=center><img src="imgs/1.png" style="zoom:30%;"></div>
 
 证明系统的目的是：**证明一个计算的正确执行**。在计算机中，我们把计算（Computation）通常建模为电路，把计算的验证转换为电路的可满足问题（C-SAT），然后把电路的可满足问题规约成某些易证明语言，这种语言通常以多项式形式表达。最后利用证明系统对这个特定语言生成证明。
 
@@ -33,7 +33,7 @@ IOP 证明系统框架来源于两个更古老的证明系统框架：IP和PCP�
 - PCP（Probabilistic Checkable Proofs）：在这个模型中，Prover和 Verifier 只进行一次交互，这一次交互中，Prover 向 Verifier 发送一个字符串，叫做PCP。和IP的主要区别是，Verifier 不需要读取完整的 PCP 字符串，而是可以对其进行随机访问。Verifier 计算结束后，输出 0 或者 1，表示是否接受这次证明。
 - IOP（Interactive Oracle Proofs）其实就是 IP 和 PCP 的结合：它像IP一样允许多轮交互，而每一轮交互都是一个 PCP 模型，即 Verifier 可以随机访问 Prover 发来的字符串，但不需要读取整个字符串。多轮交互结束后，Verifier 输出 0 或者 1。
 
-<div align=center><img src="imgs/3.png" style="zoom:40%;"></div>
+<div align=center><img src="imgs/3.png" style="zoom:30%;"></div>
 
 IOP 具有两个性质，分别是: Completeness，诚实的 Prover 和 诚实的 Verifier 一定使得协议输出为 1；Soundness，不诚实（执行计算）的 Prover 一定没有合法的执行轨迹，它所使用的假的执行轨迹只要和诚实的执行轨迹有一丁点不一样，整个协议以大概率输出 0。
 
@@ -50,6 +50,7 @@ STARK101 前两节课的内容简单扼要地告诉我们如何做算术化，�
 - 小域插值：在一个小域 $\langle g\rangle$ 上利用 lagrange 插值把执行轨迹编码成多项式 $f(X)$；
 
 - 构建约束多项式等式：执行轨迹需要对首尾和中间状态进行三个约束，表示成3个多项式等式；
+
   $$
   f(0)=1\\
   f(1022)=2338775057\\
@@ -57,6 +58,7 @@ STARK101 前两节课的内容简单扼要地告诉我们如何做算术化，�
   $$
 
 - 构造Rational多项式并合并：进一步地把多项式等式处理成 Rational 多项式，并通过随机线性结合（random linear combination）把三个多项式合并成一个多项式。
+
   $$
   p_0(X)=\frac{f(X)-0}{X-g}\\
   p_1(X)=\frac{f(X)-2338775057}{X-g^{1022}}\\
@@ -77,16 +79,16 @@ STARK101 前两节课的内容简单扼要地告诉我们如何做算术化，�
 - 素数阶有限域的乘法群构成循环群。（费马小定理可证）
 - 循环群的子群也是循环群。（反证法）
 - 循环群必是 Abel 群。
-- 拉格兰日定理（Lagrange Theorem）：设 $H$ 是有限群 $G$ 的子群，则 $|H|$ 的阶整除 $|G|$ 的阶。
+- 拉格朗日定理（Lagrange Theorem）：设 $H$ 是有限群 $G$ 的子群，则 $|H|$ 的阶整除 $|G|$ 的阶。
 - 陪集（coset）：给定群 $G$ 及其子群 $H$ 。定义左陪集为 $\set{g \circ h \quad \forall h\in H}$ ，其中 $g\in G$。右陪集同理。Abel 群的左右陪集相同。
 
 1. 为了能在“小域”上插值，在“大域”上求值，我们需要找到两个乘法子群（一小一大）。
    
-   计算素数阶有限域 $\mathbb{F}_p$ 上所构成的乘法循环群 $\langle g\rangle$ 的 $d$ 阶乘法子群的生成元 $w$：
+  计算素数阶有限域 $\mathbb{F}_p$ 上所构成的乘法循环群 $\langle g\rangle$ 的 $d$ 阶乘法子群的生成元 $w$： 
 
-   $$
-   w=g^{(p-1)/d}
-   $$
+  $$
+  w=g^{(p-1)/d}
+  $$
 
 2. 上述从“小域”到“大域”的 blowup，并不是简单地扩大到一个规模更大的乘法子群，而是要取这个大域上的 coset。
 
@@ -99,7 +101,6 @@ STARK101 前两节课的内容简单扼要地告诉我们如何做算术化，�
 
 - $f(X)=\sum_{i=0}^{n-1}{f_iX^i}$ ，其中 $f_i,X\in \mathbb{F}_p$ 。
 - Fact 1： $n + 1$ 个点唯一确定一个 $n$ 次多项式。
-- Fact 1 implies：任意两个不同的 $n$ 次多项式，至少有 $n-1$ 个点是不同的。
 - 代数基本定理（Foundamental Theorem of Algebra）： $n$ 次多项式至少有 $n$ 个零点。
 - 拉格朗日插值：给定一个点向量 $\vec{f}=\set{(x_0, y_0), \dots, (x_{n-1}, y_{n-1})}$，使用 lagrange插值法计算穿过这些点的多项式： $f(X)=\sum_{i=0}^{n-1}{y_i L_i(X)}$，其中 $L_i=\prod_{j=0, j\ne i}{\frac{X-x_j}{x_i - x_j}}$。
 
@@ -117,7 +118,7 @@ STARK101 前两节课的内容简单扼要地告诉我们如何做算术化，�
 
   非常重要的一点：LDE 赋予了向量（或者函数映射）一种距离放大（distance amplifying）的特性。函数映射本身的表现力局限在本身的定义域上，这样两个映射之间的差异其实是细微的（或者说差异很小）。但是如果将它们扩展成多项式，那么在一个更大的域上取值求得的向量，再比较，则差异就显著起来。下面是 PAZK 中对 LDE 距离放大特性的展示。
 
-  <div align=center><img src="imgs/2.png " style="zoom:40%;"></div>
+  <div align=center><img src="imgs/2.png" style="zoom:30%;"></div>
 
 #### Reed Solomon Code
 
@@ -142,12 +143,12 @@ STARK101 前两节课的内容简单扼要地告诉我们如何做算术化，�
   - 线性码是一类纠错码，定义为： 一个线性码码（Linear Code）对应着一个 n 维向量空间的线性子空间，记作： $C\leqslant\mathbb{F}^n$。
   - 线性是说：给定两个码元 $u,v\in C$，两个有限域元素 $\alpha, \beta$，则 $\alpha u+\beta v\in C$。
   - 线性码中，最小汉明距离和最小汉明重量是等价的。
-  - 习惯上会把参数附加上，比如[$n, k$]-线性码， [$n, k, d$]-线性码，或者[$n, \rho, d$]-线性码。（用 $k$ 还是 $\rho$ 取决于自己偏好，反正知道 $n,k,\rho$ 其二即可）
-  - Singleton Bound：[$n,k$]-线性码的最小汉明距离 $d\le n-k+1$
+  - 习惯上会把参数附加上，比如 $[n, k]$-线性码， $[n, k, d]$-线性码，或者 $[n, \rho, d]$-线性码。（用 $k$ 还是 $\rho$ 取决于自己偏好，反正知道 $n,k,\rho$ 其二即可）
+  - Singleton Bound： $[n,k]$-线性码的最小汉明距离 $d\le n-k+1$
   
 - Reed Solomon Code
   
-  - RS码是一类 [$n, \rho, d$]-线性码，早在1960年提出，名为“Polynomial code over Certain Finite Field”。
+  - RS码是一类 $[n, \rho, d]$-线性码，早在1960年提出，名为“Polynomial code over Certain Finite Field”。
   - 定义： $C=\set{(p(a_0), p(a_2), \dots,p(a_{n-1}))|p\text{ is a polynomial over } \mathbb{F}_p\text{ of order } <k}$
   - 本质上它编码的消息是任意次数小于 $k$ 的单变量多项式，码字是这个多项式在一个有限集合 $\set{a_0,\dots, a_{n-1}}$ 上取值所组成的「值向量」。
   
@@ -167,8 +168,8 @@ STARK101 前两节课的内容简单扼要地告诉我们如何做算术化，�
     $$
 
   - 显然RS码的消息属于 $q^k$ 的向量空间，码字属于 $q^n$ 的向量空间。而线性性质是由有限域上多项式赋予的。
-  - 考虑RS码的最小汉明距离： $d=\Delta(u,v)$。其实是长度为 n 的两个多项式「值向量」的差异。由于RS码的消息（多项式） $p(X)$ 的次数 $\le k-1$，根据代数基本定理我们知道，其在 $\mathbb{F}_p$ 上的零点个数也要 $\le k-1$。那么在大小为 $n$ 的有限集合上取值，非零点的个数 $\ge n-k+1$。于是码字的汉明重量 $w\ge n-k+1$。又由于线性码的最小汉明距离和最小汉明重量是等价的，所以码字的汉明最小汉明距离 $d\ge n-k+1$。而根据 Singleton Bound [$n,k$]-线性码的最小汉明距离 $d\le n-k+1$，因此 RS 码的最小汉明距离等于 $n-k+1$。
-  - 因此，RS码是[$n,k,n-k+1$]-线性码。
+  - 考虑RS码的最小汉明距离： $d=\Delta(u,v)$。其实是长度为 n 的两个多项式「值向量」的差异。由于RS码的消息（多项式） $p(X)$ 的次数 $\le k-1$，根据代数基本定理我们知道，其在 $\mathbb{F}_p$ 上的零点个数也要 $\le k-1$。那么在大小为 $n$ 的有限集合上取值，非零点的个数 $\ge n-k+1$。于是码字的汉明重量 $w\ge n-k+1$。又由于线性码的最小汉明距离和最小汉明重量是等价的，所以码字的汉明最小汉明距离 $d\ge n-k+1$。而根据 Singleton Bound $[n,k]$-线性码的最小汉明距离 $d\le n-k+1$，因此 RS 码的最小汉明距离等于 $n-k+1$。
+  - 因此，RS码是 $[n,k,n-k+1]$-线性码。
 
 ### Revisit Arithmetization
 
