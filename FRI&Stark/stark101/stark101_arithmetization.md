@@ -193,6 +193,7 @@ $$
 $$
 \text{C-SAT}\Rightarrow\text{RPT}
 $$
+
 Arithmetization 使得证明更加简洁（succinct）。
 
 ## 4. Other
