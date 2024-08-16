@@ -44,6 +44,7 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 - 第二节课：How to do Low Degree Extension and constrain our LDE.
   - 预习材料：STARK101 第一及第二个视频，领航员: Tim，时间：星期四，晚上8点
   - 课程回放：[Youtube 链接](https://youtu.be/HLgiprbnsBA)
+  - Note [链接](./stark101/stark101_arithmetization.md)
 - 答疑：周六晚上时间 8 点
 
 【第二周课程安排】

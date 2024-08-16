@@ -10,7 +10,7 @@ Stark101 前2个视频主要是描述如何做算术化（Arithmetization），�
 
 要解释原因，通常需要熟悉一个方案的构造框架。一个主流的 SNARK 方案构造框架以及基于FRI的SNARK构造框架（草图）如下：
 
-<div align=center><img src="./1.png" style="zoom:40%;"></div>
+<div align=center><img src="imgs/1.png" style="zoom:40%;"></div>
 
 证明系统的目的是：**证明一个计算的正确执行**。在计算机中，我们把计算（Computation）通常建模为电路，把计算的验证转换为电路的可满足问题（C-SAT），然后把电路的可满足问题规约成某些易证明语言，这种语言通常以多项式形式表达。最后利用证明系统对这个特定语言生成证明。
 
@@ -33,7 +33,7 @@ IOP 证明系统框架来源于两个更古老的证明系统框架：IP和PCP�
 - PCP（Probabilistic Checkable Proofs）：在这个模型中，Prover和 Verifier 只进行一次交互，这一次交互中，Prover 向 Verifier 发送一个字符串，叫做PCP。和IP的主要区别是，Verifier 不需要读取完整的 PCP 字符串，而是可以对其进行随机访问。Verifier 计算结束后，输出 0 或者 1，表示是否接受这次证明。
 - IOP（Interactive Oracle Proofs）其实就是 IP 和 PCP 的结合：它像IP一样允许多轮交互，而每一轮交互都是一个 PCP 模型，即 Verifier 可以随机访问 Prover 发来的字符串，但不需要读取整个字符串。多轮交互结束后，Verifier 输出 0 或者 1。
 
-<div align=center><img src="./3.png" style="zoom:40%;"></div>
+<div align=center><img src="imgs/3.png" style="zoom:40%;"></div>
 
 IOP 具有两个性质，分别是: Completeness，诚实的 Prover 和 诚实的 Verifier 一定使得协议输出为 1；Soundness，不诚实（执行计算）的 Prover 一定没有合法的执行轨迹，它所使用的假的执行轨迹只要和诚实的执行轨迹有一丁点不一样，整个协议以大概率输出 0。
 
@@ -117,7 +117,7 @@ STARK101 前两节课的内容简单扼要地告诉我们如何做算术化，�
 
   非常重要的一点：LDE 赋予了向量（或者函数映射）一种距离放大（distance amplifying）的特性。函数映射本身的表现力局限在本身的定义域上，这样两个映射之间的差异其实是细微的（或者说差异很小）。但是如果将它们扩展成多项式，那么在一个更大的域上取值求得的向量，再比较，则差异就显著起来。下面是 PAZK 中对 LDE 距离放大特性的展示。
 
-  <div align=center><img src="./2.png " style="zoom:40%;"></div>
+  <div align=center><img src="imgs/2.png " style="zoom:40%;"></div>
 
 #### Reed Solomon Code
 
