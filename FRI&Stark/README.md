@@ -50,7 +50,7 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 【第二周课程安排】
 - 第三节课：What did FRI actually do?
   - 预习材料：STARK101 第三个视频，领航员: Dream，时间：星期二，晚上8点
-  - 课程回放：
+  - 课程回放：[Youtube 链接](https://www.youtube.com/watch?v=dfUQaLOeHFc)
 - 第四节课：How to convince the verifier by FRI?
   - 预习材料：STARK101 第四个视频，领航员: Harold, 时间：星期四，晚上8点
   - 课程回放：
@@ -74,7 +74,7 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 - 第三节课：PCS with FRI.
   - 课程内容：FRI的多项式承诺，讲师：0xhhh，时间：星期二晚上8点
 - 第四节课：Paper of FRI.
-  - 课程内容：FRI论文导读及安全分析，讲师：Yingfei，时间：星期四晚上8点
+  - 课程内容：FRI论文导读及安全分析，讲师：Yingfei，时间：星期六晚上8点
 
 课程回放：
 
