@@ -55,6 +55,7 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
   - 预习材料：STARK101 第四个视频，领航员: Harold, 时间：星期四，晚上8点
   - 课程回放：[Youtube 链接](https://youtu.be/FigtQ5C6G5s)
 - 答疑：周六晚上时间 8 点
+  - 答疑回放：[YouTube 链接](https://www.youtube.com/watch?v=65-PcleywRg)
 
 共学资料：[STARK101](https://starkware.co/stark-101/)
 
@@ -67,6 +68,7 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 【第一周课程安排】
 - 第一节课：FRI by Hand.
   - 课程内容：FRI的例子及协议细节，讲师：backdoor，时间：星期二晚上8点
+  - 课程回放：[Youtube 链接](https://www.youtube.com/watch?v=W5dXnaSwrQw)
 - 第二节课：Why Low-Degree Testing? & Comparison of Commitment Schemes.
   - 课程内容：LDT的安全分析及PCS对比，讲师：Kyrin，时间：星期四晚上8点
 
