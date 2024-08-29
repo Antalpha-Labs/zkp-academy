@@ -76,7 +76,7 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 - 第三节课：PCS with FRI.
   - 课程内容：FRI的多项式承诺，讲师：0xhhh，时间：星期二晚上8点
 - 第四节课：Soundness of FRI.
-  - 课程内容：FRI论文导读及安全性分析，讲师：Yingfei，时间：星期六晚上8点
+  - 课程内容：FRI论文导读及安全性分析，讲师：Yingfei，时间：星期四晚上8点
 
 课程回放：
 
