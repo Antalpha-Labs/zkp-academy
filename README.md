@@ -1,7 +1,7 @@
 # ZKP Academy
 
 ## Courses
-- [Plonk course will run from May 27 to June 30, focusing on the principles and coding of the Plonk](https://github.com/Antalpha-Labs/zkp-study-group/tree/main/Plonk)
+- [Plonk course run from May 27 to June 30, focusing on the principles and coding of the Plonk](https://github.com/Antalpha-Labs/zkp-study-group/tree/main/Plonk)
 
 - [FRI & Stark course from 12th Aug to 22nd Sep](https://github.com/Antalpha-Labs/zkp-academy/tree/main/FRI%26Stark)
 
