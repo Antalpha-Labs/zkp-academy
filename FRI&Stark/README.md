@@ -188,7 +188,9 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 
 为鼓励学员学习与分享，本课程推出 Co-learn notes bounty 活动，学员可以将学习中的内容整理成个人笔记提交到 co-learn notes 目录下，收录后每篇笔记给出 200CNY 的 bounty，并发布在 Antalpha-Labs 公众号上。笔记主题围绕 ZKP 相关技术，不局限于 FRI or Stark 协议。
 
-
-
 **联系方式**：添加小助手微信 AntalphaLabs
 **备注**：不要吝啬给我们一个 star 哦～
+
+## Sponsor
+
+<img src="assets/SN-Linear-Flat colour.png" width="75%;"/>
