@@ -60,8 +60,8 @@ PLONK 理论基础扎实，它借鉴了很多经典 ZKP 技术的理论基础，
 
 * 主讲老师：Yan
 * 课程回放：[Youtube 链接](https://youtu.be/L3qMBzPgfWY)
-* 课程笔记：[链接](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-cn/python_notebook/1-plonk-arithmetization.ipynb)
-* 补充材料：[理解 PLONK（一）：Plonkish Arithmetization](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-cn/1-plonk-arithmetization.md)
+* 课程笔记：[链接](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-zh/python_notebook/1-plonk-arithmetization.ipynb)
+* 补充材料：[理解 PLONK（一）：Plonkish Arithmetization](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-zh/1-plonk-arithmetization.md)
 * 补充材料：[分享理解 PLONK 原理 一](https://www.youtube.com/watch?v=HtKmRcSJUG4&list=PLbQFt1T_44DwN1zWl-KWhkp3s0LAkF2a8&index=5&t=376s)
 
 ### Lesson 3【6月4日周二】 Plonk 中的多项式
@@ -71,7 +71,7 @@ PLONK 理论基础扎实，它借鉴了很多经典 ZKP 技术的理论基础，
 * 主讲老师：Wangyao
 * 课程回放：[Youtube 链接](https://youtu.be/bNGac1CJEKM)
 * 课程幻灯片
-* 补充材料：[理解 PLONK（二）：多项式编码](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-cn/2-plonk-lagrange-basis.md)
+* 补充材料：[理解 PLONK（二）：多项式编码](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-zh/2-plonk-lagrange-basis.md)
 * 补充材料：[分享 PLONK 原理 二](https://www.youtube.com/watch?v=O5HGp3EHDI0&list=PLbQFt1T_44DwN1zWl-KWhkp3s0LAkF2a8&index=4)
 
 ### Lesson 4【6月6日周四】 置换证明
@@ -81,7 +81,7 @@ PLONK 理论基础扎实，它借鉴了很多经典 ZKP 技术的理论基础，
 * 主讲老师：Wangyao
 * 课程回放：[Youtube 链接](https://youtu.be/B7ubzpXSpqI)
 * 课程幻灯片
-* 补充材料：[理解 PLONK（三）：置换证明](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-cn/3-plonk-permutation.md)
+* 补充材料：[理解 PLONK（三）：置换证明](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-zh/3-plonk-permutation.md)
 
 ### 2nd Office Hour 【6月8日周六】
 
@@ -96,7 +96,7 @@ PLONK 理论基础扎实，它借鉴了很多经典 ZKP 技术的理论基础，
 * 课程回放：[Youtube 链接](https://youtu.be/J1P60urkGwc)
 * 课程幻灯片: [链接](/Plonk/lesson%205/PLONK%20-%20Lecture%205%20-%20算术约束与拷贝约束.pdf)
 * 课程代码: [链接](/Plonk/lesson%205/plonk-lecture5-constraints.ipynb)
-* 补充材料：[理解 PLONK（四）：算术约束与拷贝约束](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-cn/4-plonk-constraints.md)
+* 补充材料：[理解 PLONK（四）：算术约束与拷贝约束](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-zh/4-plonk-constraints.md)
 
 ### Lesson 6【6月13日周四】 Plonk中的多项式承诺
 
@@ -105,7 +105,7 @@ PLONK 理论基础扎实，它借鉴了很多经典 ZKP 技术的理论基础，
 * 主讲老师：Po
 * 课程回放：[Youtube 链接](https://youtu.be/yEH23SwxCG0)
 * 课程幻灯片
-* 补充材料：[理解 Plonk（五）：多项式承诺](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-cn/5-plonk-polycom.md)
+* 补充材料：[理解 Plonk（五）：多项式承诺](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-zh/5-plonk-polycom.md)
 
 ### 3rd Office Hour 【6月15日周六】
 
@@ -119,7 +119,7 @@ PLONK 理论基础扎实，它借鉴了很多经典 ZKP 技术的理论基础，
 * 主讲老师：Yingfei
 * 课程回放：[Youtube 链接](https://youtu.be/pmO6p9Q-x6g)
 * 课程幻灯片：[链接](/Plonk/lesson%207/Plonk.pdf)
-* 补充材料：[理解 PLONK（七）：Lookup Gate](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-cn/7-plonk-lookup.md)
+* 补充材料：[理解 PLONK（七）：Lookup Gate](https://github.com/sec-bit/learning-zkp/blob/master/plonk-intro-zh/7-plonk-lookup.md)
 * 补充材料：[分享理解 PLONK 原理 三 Lookup argument](https://www.youtube.com/watch?v=StvnHnC4Dk4&list=PLbQFt1T_44DwN1zWl-KWhkp3s0LAkF2a8&index=3)
 
 ### Lesson 8【6月20日周四】 Custom Gate & Lookup Gate
