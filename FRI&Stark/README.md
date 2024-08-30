@@ -69,8 +69,9 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 - 第一节课：FRI by Hand.
   - 课程内容：FRI的例子及协议细节，讲师：backdoor，时间：星期二晚上8点
   - 课程回放：[Youtube 链接](https://www.youtube.com/watch?v=W5dXnaSwrQw)
-- 第二节课：Why Low-Degree Testing? & Comparison of Commitment Schemes.
+- 第二节课：Attack Cases in FRI & Comparison of PCSs(KZG, IPA).
   - 课程内容：LDT的安全分析及PCS对比，讲师：Kyrin，时间：星期四晚上8点
+  - 课程回放：[Youtube 链接](https://youtu.be/_0aMoAZ1L7k)
 
 【第二周课程安排】
 - 第三节课：PCS with FRI.
