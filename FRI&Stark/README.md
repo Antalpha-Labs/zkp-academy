@@ -194,7 +194,5 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 ## Sponsor
 
 
+<img src="assets/SN-Linear-Flat colour.png" width="75%;"/>
 
-<p align="center">
-  <img src="assets/SN-Linear-Flat colour.png" width="50%;" />
-</p>
