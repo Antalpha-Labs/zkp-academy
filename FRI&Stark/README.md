@@ -34,7 +34,7 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 ### Part 1: STARK101【8月12日 - 8月25日】
 
 通过 STARK101 课程入门，了解 STARKs 中各个组件的功能，以及这些功能在 ZKP 中起到了什么作用。
-在 Part1 中我们将布置下我们需要完成的第一个作业
+在 Part1 中我们将布置下我们需要完成的第一个作业 [(discussion链接)](https://github.com/Antalpha-Labs/zkp-academy/discussions/35)
 
 【第一周课程安排】
 - 第一节课：Overview of FRI.
@@ -193,4 +193,7 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 
 ## Sponsor
 
-<img src="assets/SN-Linear-Flat colour.png" width="75%;"/>
+
+<div align="center">
+ <img src="assets/SN-Linear-Flat colour.png" width="50%"/>
+</div>
