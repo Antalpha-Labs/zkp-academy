@@ -136,7 +136,7 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
   4. lambda class版zk-stark （[理论](https://lambdaclass.github.io/lambdaworks/starks/recap.html), [代码](https://github.com/lambdaclass/lambdaworks/tree/main/provers/stark)）
 
 
-### Part 4: Circle STARKs 【时间地点待定，参与此课程须完成线上课程】
+### Part 4: Circle STARKs 【时间10月13日至11月19日，地点 清迈,泰国，参与此课程须完成线上课程，提前报名】
 
 + 讲师：Kurt Pan、白菜、小熊、wangyao
 + 课程回放：
