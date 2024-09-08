@@ -122,10 +122,8 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
   - Plonky3/fri/src/two_adic_pcs.rs
   - 预习材料：[Plonky3](https://github.com/Plonky3/Plonky3)fri文件夹内的代码，领航员: 阳小雪，时间：星期二，晚上8点
 - 第四节课：
-  - Plonky3/fri/src/proof.rs
-  - Plonky3/fri/src/prover.rs
-  - Plonky3/fri/src/verifier.rs
-  - 预习材料：[Plonky3](https://github.com/Plonky3/Plonky3)fri文件夹内的代码，领航员: 阳小雪，时间：星期四，晚上8点
+  - uni-stark of plonky3
+  - 预习材料：[Plonky3](https://github.com/Plonky3/Plonky3)uni-stark 文件夹内的代码，领航员: hhh，时间：星期四，晚上8点
 
 课程回放：
 
@@ -182,7 +180,7 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
   + 小熊：pku 物理本科，法国 AI 硕士，现正专注密码学，做 ZK 相关科研
   + Harold：研究 zk 协议 todolist 望不到头的人，偶尔会做一些技术分享，欢迎大家来一起讨论～
   + Kyrin：区块链方向博士生，zkp 技术爱好者，与大佬们学习最新技术。
-  + 0xhhh：bitlayer 工程师，zk 爱好者
+  + 0xhhh： 正在学习 binuis，circle stark，zk 爱好者
   + backdoor：OKX ZK Dev，代码和理论两手抓，希望跟大家多交流学习～
   + Po：EthStorage ZK Researcher, 半路出家区块链，持续学习 DA 和 ZK 前沿研究。
   + 阳小雪：安比实验室 ZK Researcher, 最近在学习 Plonky3 的代码
