@@ -121,6 +121,7 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
     - [Plonky3](https://github.com/Plonky3/Plonky3)fri文件夹内的代码，
     - two_adic_pcs运行流程图：https://miro.com/app/board/uXjVNbLn8WU=/?share_link_id=878894620109
   - 领航员: 阳小雪，时间：星期四，晚上8点
+  - 课程回放：[Youtube 链接](https://youtu.be/swCjt9YibyE)
 
 【第二周课程安排】
 - 第三节课：
