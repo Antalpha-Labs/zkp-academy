@@ -133,6 +133,7 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 - 第四节课：
   - uni-stark of plonky3
   - 预习材料：[Plonky3](https://github.com/Plonky3/Plonky3)uni-stark 文件夹内的代码，领航员: hhh，时间：星期六，晚上8点
+  - 代码注释： https://github.com/cyl19970726/Plonky3/tree/main_comment
 
 课程回放：
 
