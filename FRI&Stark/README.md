@@ -59,6 +59,9 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 
 共学资料：[STARK101](https://starkware.co/stark-101/)
 
+
+**第一 part 作业**：[Arithmetization in STARKs](https://github.com/Antalpha-Labs/zkp-academy/discussions/35)
+
 ### Part 2: zk-learning.org Lecture 8【8月26日 - 9月8日】
 
 通过 zk-learning 的第八讲及其它辅助材料，深入理解 zk-STARKs 的工作原理和技术细节。
@@ -82,7 +85,6 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 - 第四节课：Soundness of STARK.
   - 课程内容：STARK的形式化流程及安全性分析，讲师：Yingfei，时间：星期四晚上8点
   - 课程回放：[Youtube 链接](https://youtu.be/p3zxhnSDqFM)
-  - 课程讲义：[Lecture](https://yanyingfei.github.io/stark,/soundness/2024/09/05/STARK.html)
 - 第五节课：Soundness of FRI.
   - 课程内容：FRI协议的安全性分析，讲师：Yingfei，时间：星期六晚上8点
   - 课程回放：[Youtube 链接](https://youtu.be/Sfm5GjI69fc)
@@ -128,7 +130,6 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 - 第三节课：
   - Plonky3/fri/src/two_adic_pcs.rs
   - 预习材料：[Plonky3](https://github.com/Plonky3/Plonky3)fri文件夹内的代码，领航员: 阳小雪，时间：星期四，晚上8点
-  - 课程回放：[Youtube 链接](https://youtu.be/rUQK6j3Bhsk)
 - 第四节课：
   - uni-stark of plonky3
   - 预习材料：[Plonky3](https://github.com/Plonky3/Plonky3)uni-stark 文件夹内的代码，领航员: hhh，时间：星期六，晚上8点
@@ -144,10 +145,12 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
   3. [how to code fri from scratch](https://blog.lambdaclass.com/how-to-code-fri-from-scratch/)
   4. lambda class版zk-stark （[理论](https://lambdaclass.github.io/lambdaworks/starks/recap.html), [代码](https://github.com/lambdaclass/lambdaworks/tree/main/provers/stark)）
 
+**第三 part 作业**：[Plonky3-fri](https://github.com/Antalpha-Labs/zkp-academy/discussions/58)
+
 
 ### Part 4: Circle STARKs 【时间10月13日至10月19日，地点 清迈,泰国，参与此课程须完成线上课程，提前报名】
 
-+ 讲师：Kurt Pan、白菜、小熊、wangyao
++ 讲师：Kurt Pan、小熊、wangyao
 + 课程回放：
 + 共学资料：
   1. [Vitalik Blog](https://vitalik.eth.limo/general/2024/07/23/circlestarks.html)
@@ -175,15 +178,15 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
 + [(算术化) Study of Arithmetization Methods for STARKs](https://eprint.iacr.org/2023/661.pdf)
 
 ## 作业
+第一 part 作业：[Arithmetization in STARKs](https://github.com/Antalpha-Labs/zkp-academy/discussions/35)
 
-
+第三 part 作业：[Plonky3-fri](https://github.com/Antalpha-Labs/zkp-academy/discussions/58)
 
 ### 老师介绍
 
   + Dream：Scroll Core Engineer，Blocksight 作者。数学&密码学持续学习者，前爱立信，微软高级工程师，区块链与隐私计算一线工程研发。
   + wangyao：数学博士（未完成）研究 ZK，学习 FHE，探索代数学和密码学的相交地带。
   + Kurt Pan：学院派新密码朋克，郭宇老师的好学生
-  + 白菜 cstark：多年 ML 从业者，ZKP 研究者，关注ZKML，撰写分享了多篇 ZKP 文章
   + Tim：Tim，北京邮电大学硕士，密码学爱好者，CTFer，热衷ZK安全。
   + 小熊：pku 物理本科，法国 AI 硕士，现正专注密码学，做 ZK 相关科研
   + Harold：研究 zk 协议 todolist 望不到头的人，偶尔会做一些技术分享，欢迎大家来一起讨论～
