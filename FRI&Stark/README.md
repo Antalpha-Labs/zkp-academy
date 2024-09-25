@@ -89,7 +89,6 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
   - 课程内容：FRI协议的安全性分析，讲师：Yingfei，时间：星期六晚上8点
   - 课程回放：[Youtube 链接](https://youtu.be/Sfm5GjI69fc)
 
-课程回放：
 
 共学资料：[zk-learning.org](https://zk-learning.org/)
 
@@ -137,7 +136,6 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
   - 代码注释： https://github.com/cyl19970726/Plonky3/tree/main_comment
   - 课程回放：[Youtube 链接](https://youtu.be/UHfP-1Pm1Ak)
 
-课程回放：
 
 共学资料：
   - [Plonky3](https://github.com/Plonky3/Plonky3)
