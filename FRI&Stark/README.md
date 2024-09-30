@@ -124,13 +124,14 @@ FRI 是一种基于 Reed-Solomon 码的交互式证明系统，能为零知识�
     - two_adic_pcs运行流程图：https://miro.com/app/board/uXjVNbLn8WU=/?share_link_id=878894620109
   - 领航员: 阳小雪，时间：星期四，晚上8点
   - 课程回放：[Youtube 链接](https://youtu.be/swCjt9YibyE)
+  - [课堂手写文档](https://learned-elm-078.notion.site/plonky3-fri-111680b62bca80048868e562373ec851?pvs=4)
 
 【第二周课程安排】
 - 第三节课：
   - Plonky3/fri/src/two_adic_pcs.rs
   - 预习材料：[Plonky3](https://github.com/Plonky3/Plonky3)fri文件夹内的代码，领航员: 阳小雪，时间：星期四，晚上8点
   - 课程回放：[Youtube 链接](https://youtu.be/rUQK6j3Bhsk)
-  - [课堂手写文档]([https://youtu.be/rUQK6j3Bhsk](https://learned-elm-078.notion.site/plonky3-fri-111680b62bca80048868e562373ec851?pvs=4))
+  - [课堂手写文档](https://learned-elm-078.notion.site/plonky3-fri-111680b62bca80048868e562373ec851?pvs=4)
 - 第四节课：
   - uni-stark of plonky3
   - 预习材料：[Plonky3](https://github.com/Plonky3/Plonky3)uni-stark 文件夹内的代码，领航员: hhh，时间：星期六，晚上8点
