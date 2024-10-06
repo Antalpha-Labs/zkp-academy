@@ -8,7 +8,8 @@
 ## Study group
 A month-long zkp study group, one topic at a time.
 - Jolt -> Finished
-- Binius -> [Binus学习小组](https://github.com/Antalpha-Labs/zkp-academy/issues/5) Onging
+- Binius -> [Binus学习小组](https://github.com/Antalpha-Labs/zkp-academy/issues/5) 
+- Circle Starks -> [Onging](https://github.com/Antalpha-Labs/zkp-academy/issues/61)
 
 ### 🔥 zkp-academy Contributors
 
