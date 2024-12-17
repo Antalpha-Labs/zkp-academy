@@ -1,6 +1,11 @@
 # ZKP Academy
 
 ## Courses
+
+### Upcoming
+- [zkVM course (2024.12.30 - 2025.1.27)](https://github.com/Antalpha-Labs/zkp-academy/tree/main/ZKVM)
+
+### Past
 - [Plonk course run from May 27 to June 30, focusing on the principles and coding of the Plonk](https://github.com/Antalpha-Labs/zkp-study-group/tree/main/Plonk)
 
 - [FRI & Stark course from 12th Aug to 22nd Sep](https://github.com/Antalpha-Labs/zkp-academy/tree/main/FRI%26Stark)
