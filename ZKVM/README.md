@@ -52,7 +52,7 @@ TBD
 
 ## Mentors & Assistants
 - **Dream:** 前 Scroll Core Engineer, Blocksight 作者。数学&密码学持续学习者，前爱立信，微软高级工程师，区块链与隐私计算一线工程研发。
-- **wangyao:**fluent zk 工程师。数学博士（未完成）研究 ZK，学习 FHE，探索代数学和密码学的相交地带。
+- **wangyao:** fluent zk 工程师。数学博士（未完成）研究 ZK，学习 FHE，探索代数学和密码学的相交地带。
 - **郭宇:** SECBIT Labs （安比实验室）创始人，曾经高校教育从业者，关注领域为零知识证明，智能合约安全，程序语言理论。
 - **backdoor:** OKX ZK Dev，代码和理论两手抓，希望跟大家多交流学习～
 - **johnxu:** zk和rust爱好者， 密码学工程师
