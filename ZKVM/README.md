@@ -43,11 +43,59 @@ zkVM 作为一种结合零知识证明（Zero-Knowledge Proof, ZKP）和虚拟�
 
 
 ## Course materials
-TBD
-
+1. [Lita - zkVM](https://www.lita.foundation/blog/zero-knowledge-paradigm-zkvm)
+2. [RiscZero - zkVM](https://dev.risczero.com/api/zkvm)
+3. [SP1 - zkVM](https://docs.succinct.xyz/docs/introduction)
+4. [awesome-zkvm](https://github.com/rkdud007/awesome-zkvm?tab=readme-ov-file)
+5. [zkMIPS](https://learnblockchain.cn/column/99)
+6. [All about zkVM by Stephen Duan](https://oxidized-relation-91c.notion.site/All-about-zkVM-112f0a489b988062b4b8c51f825c2f4e)
+7. [Brainfuck STARK Tutorial](https://neptune.cash/learn/brainfuck-tutorial/#wikipediaonbfdialects)
 
 ## Class schedule
-TBD
+
+【第一周课程安排】
+- 第一节课：
+  - 讲师：，时间：
+  - 课程回放：[Youtube 链接]()
+  - 课件：
+- 第二节课：
+  - 讲师：，时间：
+  - 课程回放：[Youtube 链接]()
+  - 课件：
+- 答疑：周六晚上 8 点
+
+【第二周课程安排】
+- 第三节课：
+  - 讲师：，时间：
+  - 课程回放：[Youtube 链接]()
+  - 课件：
+- 第四节课：
+  - 讲师：，时间：
+  - 课程回放：[Youtube 链接]()
+  - 课件：
+- 答疑：周六晚上 8 点
+
+【第三周课程安排】
+- 第五节课：
+  - 讲师：，时间：
+  - 课程回放：[Youtube 链接]()
+  - 课件：
+- 第六节课：
+  - 讲师：，时间：
+  - 课程回放：[Youtube 链接]()
+  - 课件：
+- 答疑：周六晚上 8 点
+
+【第四周课程安排】
+- 第七节课：
+  - 导师：，时间：
+  - 课程回放：[Youtube 链接]()
+  - 课件：
+- 第八节课：
+  - 导师：，时间：
+  - 课程回放：[Youtube 链接]()
+  - 课件：
+- 答疑：周六晚上 8 点
 
 
 ## Mentors & Assistants
