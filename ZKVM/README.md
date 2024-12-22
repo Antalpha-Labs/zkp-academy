@@ -58,7 +58,7 @@ zkVM 作为一种结合零知识证明（Zero-Knowledge Proof, ZKP）和虚拟�
   - 讲师：，时间：
   - 课程回放：[Youtube 链接]()
   - 课件：
-- 第二节课：
+- 第二节课：深入解析 Jolt
   - 讲师：Backdoor，时间：1 月 2 号周四晚上 8 点
   - 课程回放：[Youtube 链接]()
   - 课件：[Jolt & Lasso: for Newbies](https://doutv.notion.site/Jolt-Lasso-for-Newbies-1591aee049b480b7a44ad7d00e3e9265?pvs=4)
