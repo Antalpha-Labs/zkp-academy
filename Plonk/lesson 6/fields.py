@@ -96,7 +96,7 @@ class Fq:
 
     def __invert__(self) -> Fq:
         """
-        Extended euclidian algorithm for inversion.
+        Extended euclidean algorithm for inversion.
         """
         x0, x1, y0, y1 = 1, 0, 0, 1
         a = int(self.Q)
