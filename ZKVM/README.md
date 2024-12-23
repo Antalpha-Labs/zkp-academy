@@ -1,9 +1,7 @@
 # zkVM Course
 
 ## Background
-zkVM 作为一种结合零知识证明（Zero-Knowledge Proof, ZKP）和虚拟机（Virtual Machine, VM）的新型技术，背后承载了多个领域的努力，包括密码学、区块链、分布式系统和计算理论，才走到如今，被普遍认为是突破区块链和分布式系统技术瓶颈的「潜力股」。
-
-然而，无法否认的是 zkVM 的学习较为艰难。收集了各方的需求和问题，我们发现 zkVM 的学习主要存在以下现实难题：
+zkVM 作为一种结合零知识证明（Zero-Knowledge Proof, ZKP）和虚拟机（Virtual Machine, VM）的新型技术，背后承载了多个领域的努力，包括密码学、区块链、分布式系统和计算理论，才走到如今，被普遍认为是突破区块链和分布式系统技术瓶颈的「潜力股」。然而，无法否认的是 zkVM 的学习较为艰难。收集了各方的需求和问题，我们发现 zkVM 的学习主要存在以下现实难题：
 
 首先，zkVM 学习门槛相对较高。除了所用到的高级数学理论、证明系统设计以及计算的复杂性；还有为了支持通用计算，要比传统虚拟机更加复杂的设计；此外，零知识证明与虚拟机的架构要无缝结合的需求，也带来了额外的复杂性。
 
@@ -28,20 +26,6 @@ zkVM 作为一种结合零知识证明（Zero-Knowledge Proof, ZKP）和虚拟�
 
 通过本期共学，参与学员将对 zkVM 形成一个高层认知，可以了解到 zkVM 的历史发展与未来的发展机会，其系统架构、虚拟机(VM) 、prover 架构设计，以及最起码会使用一个 zkVM。
 
-### 4. 课程大纲
-- **zkVM 的历史现状和未来**：帮助学员了解 zkVM 技术的起源、演进过程以及未来的趋势和潜力。
-
-- **zkVM 概讲**：对 zkVM 的基本概念进行整体讲解，帮助学员快速入门。
-
-- **zkVM 系统架构简介**：系统性地分析 zkVM 的核心架构，帮助学员理解其底层设计。
-
-- **zkVM 的虚拟机 (VM) 简析**：深入解析 zkVM 虚拟机的设计与工作原理，为后续学习奠定技术基础。
-
-- **zkVM Prover 架构设计**：重点讲解 Prover 的架构及其设计理念，帮助学员理解 zkVM 如何生成高效的零知识证明。
-
-- **如何使用 zkVM**：结合实际案例（选择一个具体的 zkVM），帮助学员掌握 zkVM 的实际应用及操作。
-
-
 ## Course materials
 1. [Lita - zkVM](https://www.lita.foundation/blog/zero-knowledge-paradigm-zkvm)
 2. [RiscZero - zkVM](https://dev.risczero.com/api/zkvm)
@@ -62,6 +46,11 @@ zkVM 作为一种结合零知识证明（Zero-Knowledge Proof, ZKP）和虚拟�
   - 讲师：Backdoor，时间：2025年1月2日晚8点(星期四)
   - 课程回放：[Youtube 链接]()
   - 课件：[Jolt & Lasso: for Newbies](https://doutv.notion.site/Jolt-Lasso-for-Newbies-1591aee049b480b7a44ad7d00e3e9265?pvs=4)
+  - 推荐阅读：[Lasso + Jolt - YouTube](https://www.youtube.com/playlist?list=PLjQ9HCQMu_8xjOEM_vh5p26ODtr-mmGxO)
+    - [Binius: highly efficient proofs over binary fields](https://vitalik.eth.limo/general/2024/04/29/binius.html)
+    - [Jolt - JoltBook](https://jolt.a16zcrypto.com/how/jolt.html)
+    - [Jolt R1CS - How + why we rewrote Circom in Rust 🦀](https://x.com/samrags_/status/1820429579787423759?s=46) | Sam Ragsdale
+    - [A Technical Dive into Jolt: The RISC-V zkVM](https://www.zksecurity.xyz/blog/posts/how-jolt-works/)
 - 答疑：周六晚上 8 点
 
 【第二周课程安排】
