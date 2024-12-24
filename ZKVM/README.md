@@ -51,6 +51,7 @@ zkVM 作为一种结合零知识证明（Zero-Knowledge Proof, ZKP）和虚拟�
     - [Jolt - JoltBook](https://jolt.a16zcrypto.com/how/jolt.html)
     - [Jolt R1CS - How + why we rewrote Circom in Rust 🦀](https://x.com/samrags_/status/1820429579787423759?s=46) | Sam Ragsdale
     - [A Technical Dive into Jolt: The RISC-V zkVM](https://www.zksecurity.xyz/blog/posts/how-jolt-works/)
+    - [往期jolt学习小组视频](https://github.com/Antalpha-Labs/zkp-academy/issues/1)
 - 答疑：周六晚上 8 点
 
 【第二周课程安排】
