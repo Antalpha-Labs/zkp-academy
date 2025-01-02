@@ -40,8 +40,12 @@ zkVM 作为一种结合零知识证明（Zero-Knowledge Proof, ZKP）和虚拟�
 【第一周课程安排】
 - 第一节课：zkVM 的历史和现状
   - 讲师：wangyao，时间：12月31日晚8点（星期二）
-  - 课程回放：[Youtube 链接]()
-  - 课件：
+  - 课程回放：[Youtube 链接](https://youtu.be/xoGte-TzHHk)
+  - 参考资料：
+    - [A guide to Zero Knowledge Proofs](https://medium.com/@Luca_Franceschini/a-guide-to-zero-knowledge-proofs-f2ff9e5959a8) Explains basics of zkp, especially IOP and PCS.
+    - [The different types of ZK-EVMs](https://vitalik.eth.limo/general/2022/08/04/zkevm.html)
+    - [Jolt](https://eprint.iacr.org/2023/1217)
+  - 课件：[链接](https://github.com/Antalpha-Labs/zkp-academy/blob/main/ZKVM/lesson%201/zkvm-wangyao.pdf)
 - 第二节课：深入解析 Jolt
   - 讲师：Backdoor，时间：2025年1月2日晚8点(星期四)
   - 课程回放：[Youtube 链接]()
