@@ -48,7 +48,7 @@ zkVM 作为一种结合零知识证明（Zero-Knowledge Proof, ZKP）和虚拟�
   - 课件：[链接](https://github.com/Antalpha-Labs/zkp-academy/blob/main/ZKVM/lesson%201/zkvm-wangyao.pdf)
 - 第二节课：深入解析 Jolt
   - 讲师：Backdoor，时间：2025年1月2日晚8点(星期四)
-  - 课程回放：[Youtube 链接]()
+  - 课程回放：[Youtube 链接](https://youtu.be/lFUYsULyUNY)
   - 课件：[Jolt & Lasso: for Newbies](https://doutv.notion.site/Jolt-Lasso-for-Newbies-1591aee049b480b7a44ad7d00e3e9265?pvs=4)
   - 推荐阅读：[Lasso + Jolt - YouTube](https://www.youtube.com/playlist?list=PLjQ9HCQMu_8xjOEM_vh5p26ODtr-mmGxO)
     - [Binius: highly efficient proofs over binary fields](https://vitalik.eth.limo/general/2024/04/29/binius.html)
