@@ -3,7 +3,7 @@
 ## Courses
 
 
-- [zkVM course from 30th Dec 2024 to 27th Jan 2025](https://github.com/Antalpha-Labs/zkp-academy/tree/main/zkVM)
+- [zkVM course from 30th Dec 2024 to 27th Jan 2025](https://github.com/Antalpha-Labs/zkp-academy/tree/main/ZKVM)
 
 - [Plonk course run from May 27 to June 30, focusing on the principles and coding of the Plonk](https://github.com/Antalpha-Labs/zkp-study-group/tree/main/Plonk)
 
