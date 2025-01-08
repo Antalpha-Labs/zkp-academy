@@ -64,11 +64,9 @@ zkVM 作为一种结合零知识证明（Zero-Knowledge Proof, ZKP）和虚拟�
 - 答疑：周六晚上 8 点
 
 【第二周课程安排】
-
-- 第三节课：zkwasm 介绍和其他 zkvm 的对比
-  - 讲师：Sinka，时间：2025 年 1 月 7 日晚 8 点(星期二)
-  - 课程回放：[Youtube 链接]()
-  - 课件：
+- 第三节课：zkwasm 介绍
+  - 讲师：Sinka，时间：2025年1月7日晚8点(星期二)
+  - 课程回放：[Youtube 链接](https://youtu.be/ZwibS4uGEj4)
 - 第四节课：zkVM 的虚拟机 (VM) 简析
   - 讲师：johnxu，时间：2025 年 1 月 9 日晚 8 点(星期四)
   - 课程回放：
