@@ -69,13 +69,13 @@ zkVM 作为一种结合零知识证明（Zero-Knowledge Proof, ZKP）和虚拟�
   - 课程回放：[Youtube 链接](https://youtu.be/ZwibS4uGEj4)
 - 第四节课：zkVM 的虚拟机 (VM) 简析
   - 讲师：johnxu，时间：2025 年 1 月 9 日晚 8 点(星期四)
-  - 课程回放：
+  - 课程回放：[Youtube 链接](https://www.youtube.com/watch?v=KxxeyKTksxs)
   - 推荐阅读:
     - [Building a RISC-V simulator in Rust](https://gregchadwick.co.uk/blog/building-rrs-pt1/)
     - [Zero Knowledge Proof — Introduction to SP1 zkVM Source Code](https://trapdoortech.medium.com/zero-knowledge-proof-introduction-to-sp1-zkvm-source-code-d26f88f90ce4)
     - [Memory management in VM](https://blog.tigris.fr/2019/07/28/writing-an-emulator-memory-management/)
     - [Writing a simple RISC-V emulator in plain C](https://fmash16.github.io/content/posts/riscv-emulator-in-c.html)
-  - 课件：
+  - 课件：[链接](https://github.com/Antalpha-Labs/zkp-academy/blob/main/ZKVM/lesson%204/Introduce%20the%20zkVM.pdf)
 - 答疑：周六晚上 8 点
 
 【第三周课程安排】
