@@ -82,8 +82,7 @@ zkVM 作为一种结合零知识证明（Zero-Knowledge Proof, ZKP）和虚拟�
 
 - 第五节课：zkVM 电路设计与 prover 证明
   - 讲师： Dream, 时间：2025 年 1 月 14 日晚 8 点(星期二)
-  - 课程回放：
-  - 课件：
+  - 课程回放：[Youtube](https://youtu.be/avAIjRvgwqc)
 - 第六节课：zkVM 电路设计与 prover 证明
   - 讲师： Dream, 时间：2025 年 1 月 16 日晚 8 点(星期四)
   - 课程回放：
